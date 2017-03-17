@@ -1,2 +1,2 @@
 # URI
-Solutions of Programming Contest Problems
+Solutions of programming contest problems solved by me.

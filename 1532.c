@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int N, V;
+    unsigned i, j;
+
+    while( scanf( "%d%d", &N, &V ) && N != 0 ){
+
+        int actual_position = 0, counter = 0, flag = 0;
+
+        for( i = 1; i <= V; i++ ){
+            j = i;
+            while( actual_position < N && j > 0 ){
+                actual_position += j;
+                counter++;
+                if( counter == j ){
+                    counter = 0;
+                    j--;
+                }
+            }
+            if( actual_position == N ){
+                flag = 1;
+                break;
+            }
+            actual_position = counter = 0;
+        }
+
+        if( flag == 1 ){
+            puts( "possivel" );
+        }
+        else{
+            puts( "impossivel" );
+        }
+    }
+
+    return 0;
+}

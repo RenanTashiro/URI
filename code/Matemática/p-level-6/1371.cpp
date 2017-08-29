@@ -1,0 +1,28 @@
+/*
+Nome:      Fechem as Portas!
+ID:        1371
+Resposta:  Accepted
+Linguagem: C++
+Tempo:     0.004s
+Tamanho:   277 Bytes
+Submissao: 18/05/17 18:28:16
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int N;
+
+    while(cin >> N && N)
+    {
+        cout << 1;
+
+        for(int i = 4, j = 5; i <= N; i += j, j += 2)
+        {
+            cout << ' ' << i;
+        }
+
+        cout << endl;
+    }
+}

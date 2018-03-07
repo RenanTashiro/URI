@@ -2,7 +2,7 @@
 Nome:      Cidade Proibida
 ID:        2528
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   1,18 KB
 Submissao: 18/05/17 13:31:10

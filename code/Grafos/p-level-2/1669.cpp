@@ -2,7 +2,7 @@
 Nome:      Todos os Discos Considerados
 ID:        1669
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.400s
 Tamanho:   1,76 KB
 Submissao: 28/10/15 07:08:30

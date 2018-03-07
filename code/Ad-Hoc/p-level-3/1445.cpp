@@ -2,7 +2,7 @@
 Nome:      Quem Vai à Festa?
 ID:        1445
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.024s
 Tamanho:   567 Bytes
 Submissao: 07/01/16 18:40:20

@@ -2,7 +2,7 @@
 Nome:      Pontes de São Petersburgo
 ID:        1203
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.104s
 Tamanho:   675 Bytes
 Submissao: 03/03/16 15:10:41

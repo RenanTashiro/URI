@@ -2,7 +2,7 @@
 Nome:      Dia da Vovó
 ID:        1591
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.032s
 Tamanho:   2,44 KB
 Submissao: 16/06/15 09:40:06

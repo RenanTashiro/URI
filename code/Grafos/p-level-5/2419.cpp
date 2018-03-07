@@ -2,7 +2,7 @@
 Nome:      Costa
 ID:        2419
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.236s
 Tamanho:   1,71 KB
 Submissao: 16/07/17 15:51:53

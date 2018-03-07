@@ -2,7 +2,7 @@
 Nome:      Fracil Bolado
 ID:        2005
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.056s
 Tamanho:   818 Bytes
 Submissao: 26/12/15 17:03:55

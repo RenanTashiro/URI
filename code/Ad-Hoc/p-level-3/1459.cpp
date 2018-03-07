@@ -2,7 +2,7 @@
 Nome:      Foco
 ID:        1459
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.944s
 Tamanho:   591 Bytes
 Submissao: 21/10/15 15:53:15

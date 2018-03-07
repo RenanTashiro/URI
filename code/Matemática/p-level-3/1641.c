@@ -2,7 +2,7 @@
 Nome:      Restaurante e Pizzaria do Alfredo
 ID:        1641
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   418 Bytes
 Submissao: 30/07/15 18:51:14

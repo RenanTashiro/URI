@@ -2,7 +2,7 @@
 Nome:      Ajude o Sr. Barriga
 ID:        1913
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.364s
 Tamanho:   1,83 KB
 Submissao: 14/08/17 13:23:29

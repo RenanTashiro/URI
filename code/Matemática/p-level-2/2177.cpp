@@ -2,7 +2,7 @@
 Nome:      Rio 2016
 ID:        2177
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.564s
 Tamanho:   477 Bytes
 Submissao: 22/08/16 22:05:27

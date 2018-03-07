@@ -2,7 +2,7 @@
 Nome:      Vitória e a Indecisão
 ID:        1924
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   248 Bytes
 Submissao: 19/09/15 08:56:48

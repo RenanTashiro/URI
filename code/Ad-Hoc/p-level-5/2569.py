@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      A Bruxa do 7 x 1
 ID:        2569
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.028s
 Tamanho:   245 Bytes
 Submissao: 12/06/17 19:44:14
-"""
+*/
 # -*- coding: utf-8 -*-
 
 A, op, B = input().split()

@@ -2,7 +2,7 @@
 Nome:      Bolos da Maria
 ID:        1608
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.028s
 Tamanho:   881 Bytes
 Submissao: 26/05/15 08:35:41

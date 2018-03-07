@@ -2,7 +2,7 @@
 Nome:      Recuperação da Árvore
 ID:        1191
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.268s
 Tamanho:   1,65 KB
 Submissao: 25/12/15 15:26:36

@@ -2,7 +2,7 @@
 Nome:      Tradutor do Papai Noel
 ID:        1763
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.336s
 Tamanho:   1,61 KB
 Submissao: 24/06/15 15:25:43

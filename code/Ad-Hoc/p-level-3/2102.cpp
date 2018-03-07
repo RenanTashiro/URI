@@ -2,7 +2,7 @@
 Nome:      Contando em Chinês
 ID:        2102
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   549 Bytes
 Submissao: 24/06/16 16:54:09

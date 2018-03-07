@@ -2,7 +2,7 @@
 Nome:      Demogorgon
 ID:        2532
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.772s
 Tamanho:   1,17 KB
 Submissao: 18/06/17 18:46:56

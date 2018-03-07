@@ -2,7 +2,7 @@
 Nome:      Desenhando o Edifício
 ID:        1361
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,05 KB
 Submissao: 10/01/16 08:38:12

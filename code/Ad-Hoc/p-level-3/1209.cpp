@@ -2,7 +2,7 @@
 Nome:      Festas de São Petersburgo
 ID:        1209
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     1.472s
 Tamanho:   1,27 KB
 Submissao: 11/01/16 22:12:51

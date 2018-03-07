@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      A Lista
 ID:        2037
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.116s
 Tamanho:   468 Bytes
 Submissao: 11/04/16 19:58:05
-"""
+*/
 # -*- coding: utf-8 -*-
 
 while True:

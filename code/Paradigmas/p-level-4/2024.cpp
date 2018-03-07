@@ -2,7 +2,7 @@
 Nome:      Empilhando Presentes
 ID:        2024
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.088s
 Tamanho:   1,23 KB
 Submissao: 15/08/17 10:05:47

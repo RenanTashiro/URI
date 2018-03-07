@@ -2,21 +2,23 @@
 Nome:      Surf Aquático
 ID:        2560
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.120s
-Tamanho:   1,59 KB
-Submissao: 14/07/17 15:52:28
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.116s
+Tamanho:   1,67 KB
+Submissao: 14/07/17 15:32:55
 */
+// Pode dar tanta diferenca no tempo por causa da cache, e como ela esta
+// no servidor
 #include <bits/stdc++.h>
 using namespace std;
 
-static int getint()
+// Fast int reader, procurar outros metodos assim para outros tipos de dados
+static int parseint(void)
 {
     int c, n;
 
     n = getchar_unlocked() - '0';
-    
-    while ((c = getchar_unlocked()) >= '0')
+    while (isdigit((c = getchar_unlocked())))
         n = 10*n + c-'0';
 
     return n;
@@ -33,17 +35,17 @@ int main()
 		
         for(int i = 0; i < N; i++)
         {			
-			score[i] = getint();
+			score[i] = parseint();
         }
 
         set<char> interval;
-        unsigned char n_count[101] = {0};
+        unsigned short n_count[101] = {0};
         int sum = 0;
 
         for(int i = 0; i < B; i++)
         {
             sum += score[i];
-            ++n_count[score[i]];
+            n_count[score[i]]++;
             
             if(n_count[score[i]] == 1)
             {
@@ -57,8 +59,8 @@ int main()
         for(int i = B; i < N; i++)
         {
             sum += score[i] - score[i-B];
-            ++n_count[score[i]];
-            --n_count[score[i-B]];
+            n_count[score[i]]++;
+            n_count[score[i-B]]--;
             
             if(n_count[score[i]] == 1)
 				interval.insert(score[i]);
@@ -83,6 +85,3 @@ int main()
 		printf("%lld\n", lans);	
     }
 }
-
-// Possiveis novas formas de otimizar o código:
-// 1. melhorar o método de impressao

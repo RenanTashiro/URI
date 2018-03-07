@@ -2,7 +2,7 @@
 Nome:      Transmissão de Energia
 ID:        2300
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.076s
 Tamanho:   779 Bytes
 Submissao: 11/10/16 09:58:46

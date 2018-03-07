@@ -2,7 +2,7 @@
 Nome:      Fibra Óptica
 ID:        1270
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.632s
 Tamanho:   2,1 KB
 Submissao: 03/07/17 14:28:56

@@ -2,46 +2,52 @@
 Nome:      Getline Two - Frutas
 ID:        1217
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.044s
-Tamanho:   953 Bytes
-Submissao: 31/01/15 14:39:09
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
+Tempo:     0.000s
+Tamanho:   614 Bytes
+Submissao: 03/06/15 13:51:22
 */
-#include <iostream>
-#include <sstream>
 #include <stdio.h>
-#include <iomanip>
-#include <ctype.h>
-using namespace std;
+#include <string.h>
+#include <stdlib.h>
 
-int main()
-{
-    int N, day = 1, total_fruits = 0, total_total = 0;
-    float price, total_price = 0.0;
-    cin >> N;
-    string fruits, foo;
+int main(){
 
-    for(int i = 0; i < N; i++){
+int n = 0, j = 0, i = 0, aux;
+float total = 0;
+char frutas[10000];
+float totalValor = 0, totalKg = 0;
 
-        cin >> price;
+scanf ("%d", &n);
 
-        getchar();
-        stringstream frutas;
-        getline(cin,fruits);
-        frutas << fruits;
-        while(frutas >> foo){
-            total_fruits += 1;
-        }
+if (n <= 365) {
 
-        total_total += total_fruits;
-        cout << "day " << day << ": " << total_fruits << " kg" << endl;
-        total_fruits = 0;
+for (i = 1; i <= n; i++){
 
-        total_price += price;
-        day++;
-    }
+aux = 1;
 
-    cout << setiosflags(ios::fixed) <<setprecision(2) << (float) total_total / (day - 1) << " kg by day" << endl;
-    cout << setiosflags(ios::fixed) <<setprecision(2) << "R$ " << (float) total_price / (day - 1) << " by day" << endl;
+scanf ("%f ", &total);
 
+gets(frutas);
+
+for (j = 0; j <= strlen(frutas); j++){
+
+if (frutas[j] == ' '){
+aux = aux + 1;
+}	
+
+}
+
+printf ("day %d: %d kg\n", i, aux);
+
+totalValor = totalValor + total;
+totalKg = totalKg + aux;
+
+}	
+
+printf ("%.2f kg by day\n", totalKg/n);
+printf ("R$ %.2f by day\n", totalValor/n);	
+}
+
+return 0;
 }

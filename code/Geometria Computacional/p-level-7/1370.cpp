@@ -2,10 +2,10 @@
 Nome:      Regata de Cientistas
 ID:        1370
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     3.800s
-Tamanho:   3,53 KB
-Submissao: 13/05/17 17:02:28
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.200s
+Tamanho:   3,39 KB
+Submissao: 15/05/17 22:52:01
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -46,13 +46,8 @@ bool doIntersect(ii p1, ii q1, ii p2, ii q2)
     {
         return false;
     }
-
-    int o1 = orientation(p1, q1, p2);
-    int o2 = orientation(p1, q1, q2);
-    int o3 = orientation(p2, q2, p1);
-    int o4 = orientation(p2, q2, q1);
-
-    if (o1 != o2 && o3 != o4)
+    
+    if (orientation(p1, q1, p2) != orientation(p1, q1, q2) && orientation(p2, q2, p1) != orientation(p2, q2, q1))
         return true;
 
     return false;
@@ -64,7 +59,7 @@ vector<vector<pair<int,double> > > construct_graph(vector<ii> pts, vector<Seg> s
 
     for(int i = 0; i < (int)pts.size(); i++) // pts
     {
-        for(int j = 0; j < (int)pts.size(); j++) // pts
+        for(int j = i + 1; j < (int)pts.size(); j++) // pts
         {
             bool flag = true;
 
@@ -72,11 +67,14 @@ vector<vector<pair<int,double> > > construct_graph(vector<ii> pts, vector<Seg> s
             {
                 if(doIntersect(pts[i], pts[j], ii(seg[k].x1, seg[k].y1), ii(seg[k].x2, seg[k].y2))) {
                     flag = false;
+                    break;
                 }
             }
 
             if(flag) {
-                graph[i].push_back(pair<int, double>(j, dist2point(pts[i].first, pts[i].second, pts[j].first, pts[j].second)));
+                double dist = dist2point(pts[i].first, pts[i].second, pts[j].first, pts[j].second);
+                graph[i].push_back(pair<int, double>(j, dist));
+                graph[j].push_back(pair<int, double>(i, dist));
             }
         }
     }
@@ -116,8 +114,6 @@ double dijkstra(vector<vector<pair<int, double> > > graph) // corrigir
 
 int main()
 {
-    //cout << doIntersect(ii(0, 23), ii(23, 33), ii(23, 33), ii(3, 11)) << endl;
-
     int xi, yi, xf, yf, n;
 
     while(cin >> xi >> yi >> xf >> yf >> n)
@@ -127,23 +123,16 @@ int main()
         vector<Seg> seg;
         vector<ii> pts;
 
-        if(xi > xf) {
-            swap(xi, xf);
-            swap(yi, yf);
-        }
-
         for(int i = 0; i < n; i++)
         {
             int x1, x2, y1, y2;
 
-            cin >> x1 >> y1 >> x2 >> y2;
+            scanf("%d%d%d%d", &x1, &y1, &x2, &y2);
 
             seg.push_back(Seg(x1, y1, x2, y2));
             pts.push_back(ii(x1, y1));
             pts.push_back(ii(x2, y2));
         }
-
-        sort(pts.begin(), pts.end());
 
         pts.insert(pts.begin(), ii(xi, yi));
         pts.push_back(ii(xf, yf));

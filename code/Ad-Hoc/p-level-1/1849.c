@@ -2,7 +2,7 @@
 Nome:      Dracarys!
 ID:        1849
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   726 Bytes
 Submissao: 20/09/15 21:42:06

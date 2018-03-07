@@ -2,7 +2,7 @@
 Nome:      Lobo Mau
 ID:        2317
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   2,19 KB
 Submissao: 21/04/17 22:00:47

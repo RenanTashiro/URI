@@ -2,7 +2,7 @@
 Nome:      Fases da Lua
 ID:        1893
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   448 Bytes
 Submissao: 24/08/15 19:31:46

@@ -2,7 +2,7 @@
 Nome:      Operações em ABP I
 ID:        1200
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   2,87 KB
 Submissao: 02/08/15 19:56:33

@@ -2,7 +2,7 @@
 Nome:      Jogo do Maior Número
 ID:        1829
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.192s
 Tamanho:   757 Bytes
 Submissao: 05/01/16 10:30:26

@@ -2,7 +2,7 @@
 Nome:      Estágio
 ID:        2248
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   447 Bytes
 Submissao: 23/06/17 20:47:12

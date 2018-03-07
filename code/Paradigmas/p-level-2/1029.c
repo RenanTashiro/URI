@@ -2,53 +2,64 @@
 Nome:      Fibonacci, Quantas Chamadas?
 ID:        1029
 Resposta:  Accepted
-Linguagem: C
-Tempo:     0.000s
-Tamanho:   596 Bytes
-Submissao: 20/04/15 16:31:46
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
+Tempo:     0.052s
+Tamanho:   1,21 KB
+Submissao: 07/06/16 14:58:48
 */
-#include <stdio.h>
+import java.io.IOException;
+import java.util.Scanner;
 
-int fib[39];
-int call[39];
-
-void fibGen( void );
-void callGen( void );
-
-int main()
-{
-    fibGen();
-
-
-    int N, X;
-
-    scanf( "%d", &N );
-
-    int i;
-
-    for( i = 0; i < N; i++ ){
-
-        scanf( "%d", &X );
-
-        printf( "fib(%d) = %d calls = %d\n", X, call[X] - 1, fib[X] );
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {	
+	
+	private static class Fibonacci {
+		
+		private int n;
+		
+		public Fibonacci(int n) {
+			this.n = n;
+		}
+		
+		public int getN() {
+			return n;
+		}
+		
+		public int value() {
+			int fib[] = new int[2];
+			fib[0] = 1;
+			fib[1] = 1;
+			for(int i = 2; i < n; i++) {
+				int tmp = fib[0] + fib[1];
+				fib[0] = fib[1];
+				fib[1] = tmp;
+			}
+			return fib[1];
+		}
+		
+		public int calls() {
+			int cal[] = new int[n+1];
+			cal[0] = 1;
+			cal[1] = 1;
+			for(int i = 2; i <= n; i++) {
+				cal[i] = cal[i-1] + cal[i-2] + 1;
+			}
+			return cal[n]-1;
+		}
+	}
+	
+    public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		for(int i = 0; i < N; i++) {
+			Fibonacci fib = new Fibonacci(sc.nextInt());
+			System.out.println("fib(" + fib.getN() + ") = " + fib.calls() + " calls = " + fib.value());
+		}
     }
-
-    return 0;
-}
-
-void fibGen( void ){
-
-    fib[0] = 0;
-    fib[1] = 1;
-
-    call[0] = 1;
-    call[1] = 1;
-
-    int i;
-
-    for( i = 2; i < 40; i++ ){
-
-        fib[i] = fib[i-1] + fib[i-2];
-        call[i] = call[i-1] + call[i-2] + 1;
-    }
+ 
 }

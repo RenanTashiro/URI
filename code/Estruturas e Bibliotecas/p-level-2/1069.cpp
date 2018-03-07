@@ -2,39 +2,44 @@
 Nome:      Diamantes e Areia
 ID:        1069
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.000s
-Tamanho:   420 Bytes
-Submissao: 01/08/16 14:04:13
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.008s
+Tamanho:   789 Bytes
+Submissao: 25/05/15 10:21:45
 */
-#include <cstdio>
-#include <cstring>
-
+#include <iostream>
+#include <stdio.h>
+#include <vector>
 using namespace std;
 
 int main()
 {
-	int N;
-	
-	scanf("%d", &N);
-	
-	while(N--)
-	{
-		char expr[1005];
-		
-		scanf("%s", expr);
-		
-		int memory = 0, counter = 0, len = strlen(expr);
-	
-		for(int i = 0; i < len; i++)
-		{
-			if(expr[i] == '<')
-				memory++;
-			else if(expr[i] == '>' and memory)
-				counter++, memory--;
-		}
+    int N, counter = 0;
+    scanf( "%d ", &N );
 
-		printf("%d\n", counter);
-	}
+    for( int i = 0; i < N; i++ ){
+
+        char c;
+        vector<char> diamond;
+
+        while( ( c = getchar() ) && c != '\n' ){
+            if( c == '<' || c == '>' ){
+                diamond.push_back( c );
+            }
+        }
+
+        for( unsigned j = 1; j < diamond.size(); j++ ){
+            if( diamond[j-1] == '<' && diamond[j] == '>' ){
+                counter++;
+                diamond.erase( diamond.begin()+j-1 );
+                diamond.erase( diamond.begin()+j-1 );
+                j = 0;
+            }
+        }
+
+        cout << counter << endl;
+        counter = 0;
+    }
+
+    return 0;
 }
-

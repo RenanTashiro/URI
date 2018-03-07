@@ -2,7 +2,7 @@
 Nome:      amelborP mU
 ID:        2066
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   544 Bytes
 Submissao: 24/05/16 17:21:33

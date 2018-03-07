@@ -2,7 +2,7 @@
 Nome:      Sudoku
 ID:        1383
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   1,94 KB
 Submissao: 28/09/15 12:48:51

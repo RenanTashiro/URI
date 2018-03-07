@@ -2,7 +2,7 @@
 Nome:      Olimpíadas de Natal
 ID:        2018
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,48 KB
 Submissao: 24/02/16 20:50:49

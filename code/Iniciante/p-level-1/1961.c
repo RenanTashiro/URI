@@ -2,7 +2,7 @@
 Nome:      Pula Sapo
 ID:        1961
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   393 Bytes
 Submissao: 27/10/15 08:56:09

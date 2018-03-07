@@ -2,7 +2,7 @@
 Nome:      Lista Telefônica Econômica
 ID:        1211
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.072s
 Tamanho:   1,01 KB
 Submissao: 08/06/15 09:34:50

@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      El Dorado
 ID:        1645
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.688s
 Tamanho:   735 Bytes
 Submissao: 05/06/16 20:03:38
-"""
+*/
 # -*- coding: utf-8 -*-
 import functools
 

@@ -2,7 +2,7 @@
 Nome:      O País das Bicicletas
 ID:        1454
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.300s
 Tamanho:   1,16 KB
 Submissao: 22/01/16 18:29:07

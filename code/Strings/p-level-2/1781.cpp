@@ -2,7 +2,7 @@
 Nome:      Guga e a String
 ID:        1781
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.592s
 Tamanho:   2,22 KB
 Submissao: 26/05/15 07:55:37

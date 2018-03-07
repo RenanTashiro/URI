@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Pit Stop
 ID:        2030
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.044s
 Tamanho:   543 Bytes
 Submissao: 08/04/16 07:56:34
-"""
+*/
 # -*- coding: utf-8 -*-
 
 """ URI - 2030: Ad-hoc """

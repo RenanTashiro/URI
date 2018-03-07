@@ -2,7 +2,7 @@
 Nome:      Colônia de Formigas
 ID:        1135
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     1.024s
 Tamanho:   1,54 KB
 Submissao: 11/01/16 20:12:59

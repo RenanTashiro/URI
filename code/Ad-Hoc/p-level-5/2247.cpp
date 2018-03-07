@@ -2,7 +2,7 @@
 Nome:      Cofrinhos da Vó Vitória
 ID:        2247
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   331 Bytes
 Submissao: 01/10/16 10:36:58

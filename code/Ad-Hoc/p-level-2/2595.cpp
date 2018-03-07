@@ -2,7 +2,7 @@
 Nome:      Cash Roial
 ID:        2595
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.428s
 Tamanho:   755 Bytes
 Submissao: 17/07/17 09:25:18

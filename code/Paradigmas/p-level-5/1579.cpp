@@ -2,7 +2,7 @@
 Nome:      Transporte de Painéis Solares
 ID:        1579
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.172s
 Tamanho:   1,1 KB
 Submissao: 15/08/17 14:00:42

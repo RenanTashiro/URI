@@ -2,7 +2,7 @@
 Nome:      Caçadores de Mitos
 ID:        2343
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.608s
 Tamanho:   406 Bytes
 Submissao: 26/04/17 18:33:56

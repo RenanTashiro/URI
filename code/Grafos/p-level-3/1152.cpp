@@ -2,7 +2,7 @@
 Nome:      Estradas Escuras
 ID:        1152
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.072s
 Tamanho:   1,34 KB
 Submissao: 07/10/15 10:34:34

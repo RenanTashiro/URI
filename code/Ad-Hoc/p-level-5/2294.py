@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Duende Perdido
 ID:        2294
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.040s
 Tamanho:   789 Bytes
 Submissao: 11/10/16 09:03:59
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def solve(dungeon, coord, N, M):

@@ -2,7 +2,7 @@
 Nome:      Parafusos e Porcas
 ID:        1520
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.100s
 Tamanho:   1,21 KB
 Submissao: 19/06/15 10:59:31

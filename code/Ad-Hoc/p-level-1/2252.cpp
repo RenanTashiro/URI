@@ -2,7 +2,7 @@
 Nome:      Descobrindo Senha
 ID:        2252
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   467 Bytes
 Submissao: 19/09/16 21:32:41

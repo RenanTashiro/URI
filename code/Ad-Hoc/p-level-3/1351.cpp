@@ -2,7 +2,7 @@
 Nome:      Supermercado
 ID:        1351
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.204s
 Tamanho:   1,42 KB
 Submissao: 13/01/16 19:12:16

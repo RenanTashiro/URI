@@ -2,7 +2,7 @@
 Nome:      Salário com Bônus
 ID:        1009
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   232 Bytes
 Submissao: 04/06/15 21:48:26

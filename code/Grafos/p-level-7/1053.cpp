@@ -2,10 +2,10 @@
 Nome:      Desenho Contínuo
 ID:        1053
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.120s
-Tamanho:   3,23 KB
-Submissao: 13/05/16 17:51:06
+Tamanho:   3,37 KB
+Submissao: 13/05/16 17:53:43
 */
 #include <bits/stdc++.h>
 
@@ -71,6 +71,8 @@ void fordwarshall(double G[25][25])
 	}	 	 
 }
 
+double min_cost = INF;
+
 double extracostutil(double W[25][25], vector<int> odd, int pos)
 {
 	if(int(odd.size()) <= pos) 
@@ -79,7 +81,9 @@ double extracostutil(double W[25][25], vector<int> odd, int pos)
 		for(int i = 0; i < int(odd.size()); i += 2) {
 			cost += W[odd[i]][odd[i+1]];
 			maxw = max(maxw,  W[odd[i]][odd[i+1]]);
+			if(cost - maxw >= min_cost) return DBL_MAX;
 		}
+		min_cost = min(min_cost, cost - maxw);
 		return cost - maxw;
 	}
 	
@@ -105,6 +109,8 @@ double extracost(double G[25][25], int odd[25])
 	}	
 	
 	fordwarshall(G);
+	
+	min_cost = INF;
 	
 	return extracostutil(G, odd_list, 0);
 }
@@ -164,9 +170,9 @@ int main()
 						in_graph[j] = 1;	
 						in_graph[j+inc] = 1;	
 						cost += a_b;
-					}			
-					odd[j]++;
-					odd[j+inc]++;																
+						odd[j]++;
+						odd[j+inc]++;	
+					}																		
 				}
 			}
 		}				

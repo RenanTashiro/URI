@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Qual Triângulo
 ID:        2313
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.040s
 Tamanho:   542 Bytes
 Submissao: 10/10/16 21:13:41
-"""
+*/
 # -*- coding: utf-8 -*-
 
 from math import sin

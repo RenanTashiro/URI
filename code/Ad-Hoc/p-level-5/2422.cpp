@@ -2,7 +2,7 @@
 Nome:      Soma das Casas
 ID:        2422
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   936 Bytes
 Submissao: 15/06/17 17:21:18

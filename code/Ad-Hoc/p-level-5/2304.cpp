@@ -2,7 +2,7 @@
 Nome:      Banco Imobiliário
 ID:        2304
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   986 Bytes
 Submissao: 27/10/16 10:44:00

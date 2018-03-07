@@ -2,7 +2,7 @@
 Nome:      Cerco a Leningrado
 ID:        1205
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.372s
 Tamanho:   1,25 KB
 Submissao: 27/12/15 10:33:39

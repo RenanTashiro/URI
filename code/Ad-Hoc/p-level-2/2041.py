@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Sequência de Gödelito
 ID:        2041
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.640s
 Tamanho:   280 Bytes
 Submissao: 18/04/16 17:13:01
-"""
+*/
 # -*- coding: utf-8 -*-
 
 import re

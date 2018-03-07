@@ -2,7 +2,7 @@
 Nome:      Copa do Mundo
 ID:        2376
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   718 Bytes
 Submissao: 10/06/17 19:01:32

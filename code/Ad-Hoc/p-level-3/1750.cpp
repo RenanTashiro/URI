@@ -2,7 +2,7 @@
 Nome:      Ajude o Cupido
 ID:        1750
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   575 Bytes
 Submissao: 22/11/15 09:46:47

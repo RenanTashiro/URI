@@ -2,7 +2,7 @@
 Nome:      Contando Radares
 ID:        2599
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     2.104s
 Tamanho:   676 Bytes
 Submissao: 17/07/17 19:30:59

@@ -2,7 +2,7 @@
 Nome:      A Câmara Secreta
 ID:        1839
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.348s
 Tamanho:   2,24 KB
 Submissao: 20/08/15 19:59:03

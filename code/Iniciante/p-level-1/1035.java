@@ -2,7 +2,7 @@
 Nome:      Teste de Seleção 1
 ID:        1035
 Resposta:  Accepted
-Linguagem: Java
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
 Tempo:     0.060s
 Tamanho:   1,05 KB
 Submissao: 07/06/16 13:33:38

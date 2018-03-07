@@ -2,7 +2,7 @@
 Nome:      Cola
 ID:        2530
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.132s
 Tamanho:   558 Bytes
 Submissao: 18/05/17 14:59:29

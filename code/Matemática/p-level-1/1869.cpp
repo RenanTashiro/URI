@@ -2,7 +2,7 @@
 Nome:      Base 32
 ID:        1869
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   748 Bytes
 Submissao: 11/08/15 13:10:43

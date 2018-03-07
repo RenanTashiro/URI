@@ -2,7 +2,7 @@
 Nome:      Pedra-papel-tesoura-lagarto-Spock
 ID:        1873
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   2,17 KB
 Submissao: 11/08/15 13:20:51

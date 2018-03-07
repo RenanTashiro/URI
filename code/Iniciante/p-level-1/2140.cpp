@@ -2,7 +2,7 @@
 Nome:      Duas Notas
 ID:        2140
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   482 Bytes
 Submissao: 14/07/16 20:38:08

@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Fórmula 1
 ID:        1125
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.248s
 Tamanho:   890 Bytes
 Submissao: 06/03/16 17:15:52
-"""
+*/
 # -*- coding: utf-8 -*-
 
 while True:

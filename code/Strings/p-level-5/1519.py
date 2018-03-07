@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Abreviações
 ID:        1519
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.056s
 Tamanho:   765 Bytes
 Submissao: 30/04/16 14:55:01
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def abbreviation(words):

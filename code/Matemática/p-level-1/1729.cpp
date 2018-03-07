@@ -2,7 +2,7 @@
 Nome:      Média Não é Rápida o Suficiente!
 ID:        1729
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   716 Bytes
 Submissao: 28/10/15 07:17:06

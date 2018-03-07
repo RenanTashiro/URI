@@ -2,7 +2,7 @@
 Nome:      Coloque Tijolos na Parede
 ID:        1426
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,37 KB
 Submissao: 10/06/15 10:57:34

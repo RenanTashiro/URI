@@ -2,7 +2,7 @@
 Nome:      Branco e Preto
 ID:        1997
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   764 Bytes
 Submissao: 28/11/15 14:40:18

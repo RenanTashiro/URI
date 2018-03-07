@@ -2,7 +2,7 @@
 Nome:      Onde Está Minha Caneta?
 ID:        2495
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.144s
 Tamanho:   482 Bytes
 Submissao: 28/04/17 15:21:35

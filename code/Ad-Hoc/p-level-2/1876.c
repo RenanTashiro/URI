@@ -2,7 +2,7 @@
 Nome:      Rabiola
 ID:        1876
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   915 Bytes
 Submissao: 12/08/15 20:22:24

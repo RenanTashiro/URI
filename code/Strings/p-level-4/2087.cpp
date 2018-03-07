@@ -2,7 +2,7 @@
 Nome:      Conjuntos Bons e Ruins
 ID:        2087
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.448s
 Tamanho:   757 Bytes
 Submissao: 24/06/16 18:16:24

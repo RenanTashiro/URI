@@ -2,7 +2,7 @@
 Nome:      Juros do Projeto
 ID:        2170
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   287 Bytes
 Submissao: 12/08/16 14:24:03

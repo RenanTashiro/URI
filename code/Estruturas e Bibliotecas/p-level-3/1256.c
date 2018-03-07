@@ -2,7 +2,7 @@
 Nome:      Tabelas Hash
 ID:        1256
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.048s
 Tamanho:   1,3 KB
 Submissao: 01/07/15 07:33:59

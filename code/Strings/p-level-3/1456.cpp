@@ -2,7 +2,7 @@
 Nome:      Brainfuck
 ID:        1456
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.032s
 Tamanho:   1,57 KB
 Submissao: 30/04/16 19:01:06

@@ -2,7 +2,7 @@
 Nome:      Primeiro Dicionário de Andy
 ID:        1215
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   1,8 KB
 Submissao: 30/06/15 19:47:43

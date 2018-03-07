@@ -2,7 +2,7 @@
 Nome:      Ajude Seu Madruga
 ID:        1912
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.316s
 Tamanho:   1,18 KB
 Submissao: 27/09/15 08:29:35

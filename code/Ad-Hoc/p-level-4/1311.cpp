@@ -2,7 +2,7 @@
 Nome:      Companheiros de Exército
 ID:        1311
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.216s
 Tamanho:   752 Bytes
 Submissao: 08/01/16 19:58:13

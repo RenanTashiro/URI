@@ -2,7 +2,7 @@
 Nome:      Pokémon!
 ID:        1836
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   915 Bytes
 Submissao: 22/06/15 09:16:03

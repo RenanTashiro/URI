@@ -2,7 +2,7 @@
 Nome:      WWW
 ID:        2511
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.252s
 Tamanho:   1,14 KB
 Submissao: 21/04/17 11:26:54

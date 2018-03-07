@@ -2,7 +2,7 @@
 Nome:      Apagando e Ganhando
 ID:        1084
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   737 Bytes
 Submissao: 08/12/15 16:54:12

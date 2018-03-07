@@ -2,7 +2,7 @@
 Nome:      Consumo
 ID:        1014
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   935 Bytes
 Submissao: 25/04/16 22:00:04

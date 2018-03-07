@@ -2,7 +2,7 @@
 Nome:      Jogo do Limite
 ID:        1895
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   537 Bytes
 Submissao: 24/08/15 19:32:24

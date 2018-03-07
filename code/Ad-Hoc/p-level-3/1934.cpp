@@ -2,7 +2,7 @@
 Nome:      Quebra-cabeça
 ID:        1934
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.100s
 Tamanho:   2,81 KB
 Submissao: 20/09/15 09:45:07

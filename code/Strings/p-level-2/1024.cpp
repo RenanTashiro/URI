@@ -2,45 +2,75 @@
 Nome:      Criptografia
 ID:        1024
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.092s
-Tamanho:   760 Bytes
-Submissao: 08/06/15 20:15:17
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
+Tempo:     1.472s
+Tamanho:   1,67 KB
+Submissao: 07/06/16 14:22:00
 */
-#include <iostream>
-#include <stdio.h>
-#include <ctype.h>
-#include <string>
-using namespace std;
- 
-int main()
-{
-    int N, len, aux;
-    cin >> N;
-    string frase, frase_inverso;
- 
-    for(int i = 0; i < N; i++){
- 
-        if(i == 0)
-        getchar();
- 
-        getline(cin,frase);
- 
-        len = frase.length();
- 
-        for(int k = 0; k < len; k++){
-            if(isalpha(frase[k]))
-                frase[k] = frase[k] + 3;
-        }
-        for(int k = len - 1; k > - 1; k--){
-            frase_inverso += frase[k];
-        }
+import java.io.IOException;
+import java.util.Scanner;
 
-        for(int k = len / 2; k < len; k++){
-                frase_inverso[k] = frase_inverso[k] - 1;
-        }
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+	
+	private static class Criptografy {
+		
+		private String text;
+		
+		public Criptografy(String text) {
+			this.text = text;
+		}
 
-        cout << frase_inverso << endl;
-        frase_inverso.clear();
+		private String first_step(String text) {
+			String new_text = "";
+			for(int i = 0; i < text.length(); i++) {
+				if(Character.isLetter(text.charAt(i))) {
+					new_text += (char)(text.charAt(i) + 3);
+				} else {
+					new_text += text.charAt(i);
+				}
+			}
+			return new_text;
+		}
+		
+		private String second_step(String text) {
+			String new_text = "";
+			for(int i = text.length()-1; i >= 0; i--) {
+				new_text += text.charAt(i);
+			}
+			return new_text;
+		}
+		
+		private String third_step(String text) {
+			String new_text = "";
+			for(int i = 0; i < (int)(text.length()/2); i++) {
+				new_text += text.charAt(i);
+			}			
+			for(int i = (int)(text.length()/2); i < text.length(); i++) {
+				new_text += (char)(text.charAt(i) - 1);
+			}
+			return new_text;
+		}
+		
+		public String encrypt() {
+			return third_step(second_step(first_step(text)));
+		}
+	}
+	
+    public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		int N = Integer.parseInt(sc.next());
+		sc.nextLine(); // clean buffer		
+		for(int i = 0; i < N; i++) {
+			String expr = sc.nextLine();
+			Criptografy cript = new Criptografy(expr);
+			System.out.println(cript.encrypt());
+		}
     }
+ 
 }

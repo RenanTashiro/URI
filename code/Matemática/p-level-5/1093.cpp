@@ -2,7 +2,7 @@
 Nome:      Vampiros
 ID:        1093
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.032s
 Tamanho:   589 Bytes
 Submissao: 10/06/17 09:16:26

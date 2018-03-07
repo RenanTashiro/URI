@@ -2,7 +2,7 @@
 Nome:      Bazinga!
 ID:        1828
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,73 KB
 Submissao: 22/06/15 09:36:55

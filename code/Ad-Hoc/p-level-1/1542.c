@@ -2,7 +2,7 @@
 Nome:      Lendo Livros
 ID:        1542
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   379 Bytes
 Submissao: 22/06/15 10:33:43

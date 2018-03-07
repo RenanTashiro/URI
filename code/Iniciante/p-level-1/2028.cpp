@@ -2,7 +2,7 @@
 Nome:      Sequência de Sequência
 ID:        2028
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.260s
 Tamanho:   483 Bytes
 Submissao: 26/02/16 18:04:43

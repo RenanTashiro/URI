@@ -2,7 +2,7 @@
 Nome:      CPF 1
 ID:        1769
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   965 Bytes
 Submissao: 21/05/15 13:33:37

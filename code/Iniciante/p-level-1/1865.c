@@ -2,7 +2,7 @@
 Nome:      Mjölnir
 ID:        1865
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   371 Bytes
 Submissao: 11/08/15 09:53:01

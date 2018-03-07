@@ -2,7 +2,7 @@
 Nome:      Entregadores de Steak
 ID:        2046
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.640s
 Tamanho:   1,09 KB
 Submissao: 20/05/16 14:16:49

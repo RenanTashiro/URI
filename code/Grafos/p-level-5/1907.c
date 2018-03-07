@@ -2,7 +2,7 @@
 Nome:      Coloração de Cenários de Jogos
 ID:        1907
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.452s
 Tamanho:   1,06 KB
 Submissao: 07/09/15 08:34:22

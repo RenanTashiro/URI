@@ -2,7 +2,7 @@
 Nome:      Trilhas
 ID:        2296
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.036s
 Tamanho:   691 Bytes
 Submissao: 10/06/17 23:36:37

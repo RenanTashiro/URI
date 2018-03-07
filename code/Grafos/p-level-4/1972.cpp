@@ -2,7 +2,7 @@
 Nome:      Nêmesis
 ID:        1972
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.256s
 Tamanho:   1,8 KB
 Submissao: 27/12/15 10:02:39

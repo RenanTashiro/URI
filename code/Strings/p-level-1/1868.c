@@ -2,7 +2,7 @@
 Nome:      Espiral Quadrada
 ID:        1868
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.020s
 Tamanho:   1,31 KB
 Submissao: 12/08/15 19:54:40

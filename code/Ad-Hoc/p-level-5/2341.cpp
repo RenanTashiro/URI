@@ -2,7 +2,7 @@
 Nome:      Número de Envelopes
 ID:        2341
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.324s
 Tamanho:   353 Bytes
 Submissao: 10/06/17 22:52:38

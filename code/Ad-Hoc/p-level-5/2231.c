@@ -2,7 +2,7 @@
 Nome:      Temperatura Lunar
 ID:        2231
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.048s
 Tamanho:   847 Bytes
 Submissao: 11/10/16 10:36:59

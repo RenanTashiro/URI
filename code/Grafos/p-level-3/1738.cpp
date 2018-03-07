@@ -2,10 +2,10 @@
 Nome:      Rede de Fibra
 ID:        1738
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.068s
-Tamanho:   1,21 KB
-Submissao: 01/07/17 20:56:21
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.060s
+Tamanho:   1,18 KB
+Submissao: 01/07/17 20:57:41
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,9 +21,9 @@ int main()
         // read graph
         while(scanf("%d%d", &A, &B) && A)
         {
-            string company;
+            char company[30];
 
-            cin >> company;
+            scanf("%s", company);
 
             for(int i = 0; company[i] != '\0'; i++)
             {
@@ -51,8 +51,7 @@ int main()
             {
                 if(graph[A-1][B-1] & (1 << i))
                 {
-                    //putchar(char('a' + i));
-                    cout << char('a' + i);
+                    printf("%c", (char)'a' + i);
                     flag = true;
                 }
             }

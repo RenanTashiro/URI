@@ -2,7 +2,7 @@
 Nome:      Diga-me a Frequência
 ID:        1251
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.028s
 Tamanho:   1,08 KB
 Submissao: 01/07/15 18:48:49

@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Pedra, Papel, Ataque Aéreo
 ID:        2031
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.072s
 Tamanho:   666 Bytes
 Submissao: 02/04/16 10:45:33
-"""
+*/
 # -*- coding: utf-8 -*-
 
 """ URI - 2031 """

@@ -2,7 +2,7 @@
 Nome:      Capital
 ID:        2428
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,8 KB
 Submissao: 15/06/17 16:23:46

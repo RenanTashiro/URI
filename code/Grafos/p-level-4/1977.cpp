@@ -2,7 +2,7 @@
 Nome:      Não Posso me Atrasar
 ID:        1977
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,52 KB
 Submissao: 04/02/16 09:00:00

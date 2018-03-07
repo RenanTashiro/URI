@@ -2,7 +2,7 @@
 Nome:      Novos Computadores
 ID:        1982
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   2,62 KB
 Submissao: 23/12/15 20:02:20

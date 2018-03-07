@@ -2,7 +2,7 @@
 Nome:      Teclado Quebrado
 ID:        1451
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.136s
 Tamanho:   1,13 KB
 Submissao: 01/08/15 17:22:09

@@ -2,7 +2,7 @@
 Nome:      106 Milhas Para Chicago
 ID:        1655
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.116s
 Tamanho:   604 Bytes
 Submissao: 11/01/16 22:45:47

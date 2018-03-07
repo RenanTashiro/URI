@@ -2,7 +2,7 @@
 Nome:      O Óscar Vai Para...
 ID:        1811
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   2,54 KB
 Submissao: 25/09/15 14:41:59

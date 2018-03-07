@@ -2,7 +2,7 @@
 Nome:      Casa de Rogério
 ID:        2002
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.440s
 Tamanho:   1,37 KB
 Submissao: 13/01/16 10:58:22

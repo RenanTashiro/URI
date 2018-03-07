@@ -2,7 +2,7 @@
 Nome:      Elementar, meu Caro Watson!
 ID:        1382
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.268s
 Tamanho:   618 Bytes
 Submissao: 04/01/16 10:47:27

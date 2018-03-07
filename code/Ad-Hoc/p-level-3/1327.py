@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Drop Out
 ID:        1327
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.052s
 Tamanho:   1,13 KB
 Submissao: 06/03/16 08:13:57
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def lowerslist(cards, start, end):

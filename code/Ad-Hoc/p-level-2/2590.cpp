@@ -2,12 +2,13 @@
 Nome:      Sete
 ID:        2590
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.564s
-Tamanho:   261 Bytes
-Submissao: 14/06/17 19:49:38
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.684s
+Tamanho:   290 Bytes
+Submissao: 14/06/17 19:48:00
 */
-#include <cstdio>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {

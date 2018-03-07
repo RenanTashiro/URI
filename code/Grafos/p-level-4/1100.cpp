@@ -2,7 +2,7 @@
 Nome:      Movimentos do Cavalo
 ID:        1100
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.056s
 Tamanho:   1,04 KB
 Submissao: 19/05/16 21:38:57

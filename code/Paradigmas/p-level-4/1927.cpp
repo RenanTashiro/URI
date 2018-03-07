@@ -2,7 +2,7 @@
 Nome:      Tapioca e a Chuva de Trufas
 ID:        1927
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.020s
 Tamanho:   1,06 KB
 Submissao: 15/08/17 10:23:58

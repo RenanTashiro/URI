@@ -2,7 +2,7 @@
 Nome:      Triângulo Trinomial
 ID:        1795
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   165 Bytes
 Submissao: 28/05/15 14:54:43

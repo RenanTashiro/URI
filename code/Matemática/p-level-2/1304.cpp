@@ -2,7 +2,7 @@
 Nome:      Velocidade Média
 ID:        1304
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.164s
 Tamanho:   1,29 KB
 Submissao: 30/11/15 12:21:08

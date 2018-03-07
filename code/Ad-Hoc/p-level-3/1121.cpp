@@ -2,10 +2,10 @@
 Nome:      Robô Colecionador
 ID:        1121
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.044s
-Tamanho:   1,13 KB
-Submissao: 02/08/16 14:58:11
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.048s
+Tamanho:   1,22 KB
+Submissao: 02/08/16 15:04:03
 */
 #include <cstdio>
 #include <cstring>
@@ -24,7 +24,7 @@ int main()
 		for(int i = 1; i <= N; i++) {
 			for(int j = 1; j <= M; j++) {				
 				scanf(" %c", &world[i][j]);
-				if(world[i][j] && world[i][j] && world[i][j] && world[i][j] > 65) {
+				if(world[0][0] && world[0][0] && world[0][0] && world[i][j] && world[i][j] && world[i][j] && world[i][j] && world[i][j] && world[i][j] && world[i][j] > 65) {
 					dx = i;
 					dy = j;
 					switch(world[i][j]) {

@@ -2,7 +2,7 @@
 Nome:      Notas e Moedas
 ID:        1021
 Resposta:  Accepted
-Linguagem: Java
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
 Tempo:     0.068s
 Tamanho:   1,93 KB
 Submissao: 06/06/16 14:17:47

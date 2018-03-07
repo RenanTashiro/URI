@@ -2,7 +2,7 @@
 Nome:      Roberto e a Sala Desenfreada
 ID:        1953
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.060s
 Tamanho:   639 Bytes
 Submissao: 08/11/15 18:46:39

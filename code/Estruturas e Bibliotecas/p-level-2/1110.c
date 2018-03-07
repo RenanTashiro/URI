@@ -2,7 +2,7 @@
 Nome:      Jogando Cartas Fora
 ID:        1110
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.080s
 Tamanho:   1,13 KB
 Submissao: 13/07/15 19:42:22

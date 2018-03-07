@@ -2,7 +2,7 @@
 Nome:      EBCDIC
 ID:        1832
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   3,36 KB
 Submissao: 09/07/15 18:28:43

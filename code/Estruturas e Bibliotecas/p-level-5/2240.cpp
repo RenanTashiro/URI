@@ -2,7 +2,7 @@
 Nome:      Fundindo Árvores
 ID:        2240
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   2,39 KB
 Submissao: 20/09/16 18:16:54

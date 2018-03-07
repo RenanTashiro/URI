@@ -2,7 +2,7 @@
 Nome:      Código
 ID:        1671
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.288s
 Tamanho:   929 Bytes
 Submissao: 02/07/17 17:48:39

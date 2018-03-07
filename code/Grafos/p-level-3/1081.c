@@ -2,11 +2,12 @@
 Nome:      DFSr - Hierarquia de Profundidade
 ID:        1081
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
-Tamanho:   1,25 KB
-Submissao: 06/08/15 08:58:41
+Tamanho:   1,27 KB
+Submissao: 19/12/16 13:44:09
 */
+// Autor: Renan Tashiro
 #include <stdio.h>
 
 #define Graph int

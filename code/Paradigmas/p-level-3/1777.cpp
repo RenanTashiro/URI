@@ -2,7 +2,7 @@
 Nome:      Calçada da Fama
 ID:        1777
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.184s
 Tamanho:   2,12 KB
 Submissao: 13/08/17 09:03:24

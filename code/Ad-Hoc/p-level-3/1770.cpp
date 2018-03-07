@@ -2,7 +2,7 @@
 Nome:      Shuffle
 ID:        1770
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   814 Bytes
 Submissao: 28/06/15 20:30:52

@@ -2,7 +2,7 @@
 Nome:      O Maior
 ID:        1013
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   587 Bytes
 Submissao: 25/04/16 20:47:26

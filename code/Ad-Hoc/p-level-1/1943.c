@@ -2,7 +2,7 @@
 Nome:      Top N
 ID:        1943
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   321 Bytes
 Submissao: 20/10/15 20:21:57

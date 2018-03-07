@@ -2,7 +2,7 @@
 Nome:      Quantas Chamadas Recursivas?
 ID:        1033
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.116s
 Tamanho:   607 Bytes
 Submissao: 29/04/16 17:51:42

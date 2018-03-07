@@ -2,7 +2,7 @@
 Nome:      Viagem Para BH
 ID:        2566
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.152s
 Tamanho:   1,48 KB
 Submissao: 14/05/17 21:00:02

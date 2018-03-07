@@ -2,7 +2,7 @@
 Nome:      Repositórios
 ID:        2325
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   585 Bytes
 Submissao: 23/04/17 10:12:47

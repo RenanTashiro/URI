@@ -2,7 +2,7 @@
 Nome:      Diversão dos Alunos
 ID:        2116
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,55 KB
 Submissao: 05/07/16 19:35:56

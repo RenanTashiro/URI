@@ -2,7 +2,7 @@
 Nome:      2048
 ID:        1559
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   1,69 KB
 Submissao: 09/06/17 17:14:53

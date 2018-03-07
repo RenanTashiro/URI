@@ -2,7 +2,7 @@
 Nome:      Onde estão meus Genes
 ID:        1271
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.320s
 Tamanho:   702 Bytes
 Submissao: 10/06/17 08:25:09

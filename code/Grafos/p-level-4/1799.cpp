@@ -2,7 +2,7 @@
 Nome:      O Rato no Labirinto
 ID:        1799
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   862 Bytes
 Submissao: 06/01/16 17:52:20

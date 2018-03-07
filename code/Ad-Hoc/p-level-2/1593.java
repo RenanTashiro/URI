@@ -2,7 +2,7 @@
 Nome:      Função Binária
 ID:        1593
 Resposta:  Accepted
-Linguagem: Java
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
 Tempo:     0.092s
 Tamanho:   356 Bytes
 Submissao: 26/09/15 14:04:12

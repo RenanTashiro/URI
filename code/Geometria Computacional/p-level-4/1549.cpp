@@ -2,7 +2,7 @@
 Nome:      Dividindo a Coca
 ID:        1549
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   1,06 KB
 Submissao: 05/06/17 13:16:31

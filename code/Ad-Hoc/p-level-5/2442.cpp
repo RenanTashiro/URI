@@ -2,7 +2,7 @@
 Nome:      Plantação
 ID:        2442
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.020s
 Tamanho:   923 Bytes
 Submissao: 15/06/17 13:47:19

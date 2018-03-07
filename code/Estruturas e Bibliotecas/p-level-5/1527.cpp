@@ -2,7 +2,7 @@
 Nome:      Guildas
 ID:        1527
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.320s
 Tamanho:   1,18 KB
 Submissao: 03/01/16 15:52:36

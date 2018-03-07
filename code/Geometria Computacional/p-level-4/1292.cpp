@@ -2,7 +2,7 @@
 Nome:      Problema com um Pentágono
 ID:        1292
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.132s
 Tamanho:   229 Bytes
 Submissao: 19/05/17 17:11:40

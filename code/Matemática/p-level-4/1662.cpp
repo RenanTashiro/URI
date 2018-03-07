@@ -2,7 +2,7 @@
 Nome:      Quadrados Homogêneos
 ID:        1662
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.492s
 Tamanho:   506 Bytes
 Submissao: 15/01/16 20:32:36

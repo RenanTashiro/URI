@@ -2,7 +2,7 @@
 Nome:      Jogo do Quadrado
 ID:        2067
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.180s
 Tamanho:   946 Bytes
 Submissao: 26/06/16 17:10:35

@@ -2,7 +2,7 @@
 Nome:      Bakugan
 ID:        1419
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   1,17 KB
 Submissao: 15/06/15 10:00:02

@@ -2,7 +2,7 @@
 Nome:      Praça do Retângulo
 ID:        1938
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.028s
 Tamanho:   1,12 KB
 Submissao: 04/10/15 16:55:19

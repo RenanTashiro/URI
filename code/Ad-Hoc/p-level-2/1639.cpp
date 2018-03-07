@@ -2,7 +2,7 @@
 Nome:      Gerando Números Aleatórios
 ID:        1639
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.104s
 Tamanho:   546 Bytes
 Submissao: 28/06/15 12:03:05

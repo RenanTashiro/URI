@@ -2,7 +2,7 @@
 Nome:      Iu-Di-Oh!
 ID:        2542
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.188s
 Tamanho:   950 Bytes
 Submissao: 09/05/17 17:35:32

@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      O Primo de Josephus
 ID:        1032
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.124s
 Tamanho:   593 Bytes
 Submissao: 06/03/16 10:15:56
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def eratosthenes_sieve(upper_bound):

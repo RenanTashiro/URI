@@ -2,7 +2,7 @@
 Nome:      Meu Avô é Famoso
 ID:        1403
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.188s
 Tamanho:   634 Bytes
 Submissao: 10/06/17 11:10:27

@@ -2,7 +2,7 @@
 Nome:      Elfos e seus Códigos
 ID:        2020
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.048s
 Tamanho:   1,28 KB
 Submissao: 01/03/16 13:19:24

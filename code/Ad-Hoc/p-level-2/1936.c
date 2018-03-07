@@ -2,7 +2,7 @@
 Nome:      Fatorial
 ID:        1936
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   433 Bytes
 Submissao: 19/09/15 08:53:11

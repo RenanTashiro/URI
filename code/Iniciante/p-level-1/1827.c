@@ -2,7 +2,7 @@
 Nome:      Matriz Quadrada IV
 ID:        1827
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   878 Bytes
 Submissao: 23/06/15 07:59:34

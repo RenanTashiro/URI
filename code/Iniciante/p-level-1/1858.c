@@ -2,7 +2,7 @@
 Nome:      A Resposta de Theon
 ID:        1858
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   330 Bytes
 Submissao: 07/08/15 09:08:53

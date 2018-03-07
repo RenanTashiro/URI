@@ -2,7 +2,7 @@
 Nome:      O Enigma do Pronalândia
 ID:        1984
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   258 Bytes
 Submissao: 29/10/15 17:46:51

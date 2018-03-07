@@ -2,7 +2,7 @@
 Nome:      Fila do Bandejão
 ID:        1524
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   655 Bytes
 Submissao: 28/12/15 18:15:04

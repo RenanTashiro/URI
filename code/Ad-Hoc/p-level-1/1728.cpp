@@ -2,7 +2,7 @@
 Nome:      Difícil de Acreditar, Mas é Verdade!
 ID:        1728
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   915 Bytes
 Submissao: 18/06/15 16:05:35

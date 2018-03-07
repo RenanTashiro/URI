@@ -2,7 +2,7 @@
 Nome:      Dança Indígena
 ID:        2379
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.160s
 Tamanho:   1,06 KB
 Submissao: 15/06/17 17:13:21

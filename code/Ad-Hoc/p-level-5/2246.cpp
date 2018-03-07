@@ -2,7 +2,7 @@
 Nome:      Ladrilhos
 ID:        2246
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   811 Bytes
 Submissao: 13/09/16 14:57:52

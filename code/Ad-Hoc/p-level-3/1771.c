@@ -2,7 +2,7 @@
 Nome:      Cartelas de Bingo Aleatórias
 ID:        1771
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,96 KB
 Submissao: 29/06/15 19:56:42

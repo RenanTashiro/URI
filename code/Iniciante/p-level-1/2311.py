@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Saltos Ornamentais
 ID:        2311
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.048s
 Tamanho:   221 Bytes
 Submissao: 10/10/16 21:17:13
-"""
+*/
 # -*- coding: utf-8 -*-
 
 N = int(input())

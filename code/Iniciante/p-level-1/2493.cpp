@@ -2,7 +2,7 @@
 Nome:      Jogo do Operador
 ID:        2493
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,28 KB
 Submissao: 19/04/17 17:34:48

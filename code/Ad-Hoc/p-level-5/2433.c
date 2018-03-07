@@ -2,7 +2,7 @@
 Nome:      Vende-se
 ID:        2433
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.040s
 Tamanho:   699 Bytes
 Submissao: 15/06/17 17:17:42

@@ -2,7 +2,7 @@
 Nome:      Frequência de Letras
 ID:        1255
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.024s
 Tamanho:   2,86 KB
 Submissao: 25/05/15 13:31:57

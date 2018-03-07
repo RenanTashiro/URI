@@ -2,32 +2,39 @@
 Nome:      Aumento de Salário
 ID:        1048
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
-Tamanho:   822 Bytes
-Submissao: 06/01/15 18:52:57
+Tamanho:   1,16 KB
+Submissao: 16/06/15 09:46:06
 */
-#include <iostream>
-#include <iomanip>
-using namespace std;
-
-int main()
-{
-    float salario, novo_salario;
-    cin >> salario;
-
-if(salario <= 400)
-    novo_salario = salario * 1.15;
-if(salario <= 800 && salario > 400)
-    novo_salario = salario * 1.12;
-if(salario <= 1200 && salario > 800)
-    novo_salario = salario * 1.10;
-if(salario <= 2000 && salario > 1200)
-    novo_salario = salario * 1.07;
-if(salario > 2000)
-    novo_salario = salario * 1.04;
-
-    cout << setiosflags(ios::fixed) << setprecision(2) << "Novo salario: " << novo_salario << endl;
-    cout << setiosflags(ios::fixed) << setprecision(2) << "Reajuste ganho: " << novo_salario - salario << endl;
-    cout << setiosflags(ios::fixed) << setprecision(0) << "Em percentual: " << novo_salario / salario * 100 - 100 << " %" << endl;
+#include <stdio.h>
+  
+int main() {
+  
+   double sal, novoSal, reajuste;
+   int a=37,pct;
+    scanf("%lf",&sal);
+    if ((sal>=0)&&(sal<=400)){
+        printf("Novo salario: %.2lf\n", novoSal=sal*1.15);
+        printf ("Reajuste ganho: %.2lf\n", reajuste=sal*0.15);
+        printf ("Em percentual: %d %c\n",pct=15, a);}
+    if((sal>400.00)&&(sal<=800)){
+        printf("Novo salario: %.2lf\n", novoSal=sal*1.12);
+        printf ("Reajuste ganho: %.2lf\n", reajuste=sal*0.12);
+        printf ("Em percentual: %d %c\n",pct=12, a);}
+    if((sal>800)&&(sal<=1200)){
+        printf("Novo salario: %.2lf\n", novoSal=sal*1.1);
+        printf ("Reajuste ganho: %.2lf\n", reajuste=sal*0.1);
+        printf ("Em percentual: %d %c\n",pct=10, a);}
+    if((sal>1200)&&(sal<=2000)){
+        printf("Novo salario: %.2lf\n", novoSal=sal*1.07);
+        printf ("Reajuste ganho: %.2lf\n", reajuste=sal*0.07);
+        printf ("Em percentual: %d %c\n",pct=7,a);}
+    if(sal>2000){
+        printf("Novo salario: %.2lf\n", novoSal=sal*1.04);
+        printf ("Reajuste ganho: %.2lf\n", reajuste=sal*0.04);
+        printf ("Em percentual: %d %c\n",pct=4,a);}
+         
+  
+    return 0;
 }

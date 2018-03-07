@@ -2,7 +2,7 @@
 Nome:      Dentista
 ID:        2387
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   569 Bytes
 Submissao: 15/06/17 15:32:57

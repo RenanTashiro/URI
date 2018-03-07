@@ -2,7 +2,7 @@
 Nome:      Árvore Binária de Busca
 ID:        1195
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.160s
 Tamanho:   1,87 KB
 Submissao: 08/07/15 18:34:45

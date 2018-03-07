@@ -2,7 +2,7 @@
 Nome:      UFFS Multicampi
 ID:        1908
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.412s
 Tamanho:   1,19 KB
 Submissao: 16/07/17 15:13:57

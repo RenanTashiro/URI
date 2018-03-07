@@ -2,7 +2,7 @@
 Nome:      Economia Brasileira
 ID:        1796
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.048s
 Tamanho:   414 Bytes
 Submissao: 28/05/15 15:11:57

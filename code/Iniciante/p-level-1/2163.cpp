@@ -2,7 +2,7 @@
 Nome:      O Despertar da Força
 ID:        2163
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.308s
 Tamanho:   583 Bytes
 Submissao: 25/07/16 22:30:55

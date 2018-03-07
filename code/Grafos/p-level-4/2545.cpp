@@ -2,7 +2,7 @@
 Nome:      Manyfile
 ID:        2545
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.232s
 Tamanho:   1,83 KB
 Submissao: 17/05/17 23:37:01

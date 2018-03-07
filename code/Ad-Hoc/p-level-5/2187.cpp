@@ -2,7 +2,7 @@
 Nome:      Bits Trocados
 ID:        2187
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   322 Bytes
 Submissao: 29/08/16 12:21:45

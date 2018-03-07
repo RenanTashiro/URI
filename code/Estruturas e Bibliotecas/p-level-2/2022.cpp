@@ -2,7 +2,7 @@
 Nome:      Presentes de Natal
 ID:        2022
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,13 KB
 Submissao: 24/02/16 20:51:04

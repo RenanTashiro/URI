@@ -2,7 +2,7 @@
 Nome:      Runner Pawns
 ID:        1343
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   2,33 KB
 Submissao: 22/08/16 19:44:26

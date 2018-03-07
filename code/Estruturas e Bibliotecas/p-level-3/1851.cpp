@@ -2,7 +2,7 @@
 Nome:      Como Treinar Seu Dragão
 ID:        1851
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.080s
 Tamanho:   787 Bytes
 Submissao: 12/01/16 22:41:31

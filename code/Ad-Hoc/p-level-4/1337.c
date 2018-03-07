@@ -2,7 +2,7 @@
 Nome:      Poker do Rei
 ID:        1337
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   2,59 KB
 Submissao: 09/06/15 10:12:11

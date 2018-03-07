@@ -2,7 +2,7 @@
 Nome:      Validador de Senhas
 ID:        2253
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   535 Bytes
 Submissao: 19/09/16 21:22:18

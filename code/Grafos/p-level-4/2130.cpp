@@ -2,7 +2,7 @@
 Nome:      Final Mundial de 2008
 ID:        2130
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.068s
 Tamanho:   1,59 KB
 Submissao: 16/07/17 18:12:05

@@ -2,7 +2,7 @@
 Nome:      Altura
 ID:        1566
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.680s
 Tamanho:   1,01 KB
 Submissao: 10/06/15 17:04:31

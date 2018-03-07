@@ -2,53 +2,21 @@
 Nome:      Infixa para Posfixa
 ID:        1077
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.008s
-Tamanho:   2,06 KB
-Submissao: 01/08/16 14:54:35
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.012s
+Tamanho:   1,18 KB
+Submissao: 03/01/16 09:51:28
 */
-//---------------------------------
-// (A*B+2*C^3)/2*A -: AB*2C3^*+2/A*|
-//			  /	                   |
-//		+			*              |
-//	*		*	   2 A             |
-// A B	   2 ^                     | 
-//          C 3                    | 
-//----------------------------------
-// (2*4/a^b)/(2*c) -: 24*ab^/2c*/  |
-//			  	 /                 |
-//		  /				*          |
-//	  *		 ^		   2 c         |
-//   2 4    a b                    |
-//---------------------------------
-#include <iostream>
-#include <stack>
-#include <locale>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-class Expression
-{
-	public:
-		Expression(string expr);
-		string to_posfix();
-	private:
-		bool isoperator(char c);
-		bool relevance(char op1, char op2);
-		string expr;
-};
-
-Expression::Expression(string expr)
-{
-	this->expr = expr;
-}
-
-bool Expression::isoperator(char c)
+bool isoperator(char c)
 {
 	return c=='+'||c=='-'||c=='*'||c=='/'||c=='^';
 }
 
-bool Expression::relevance(char op1, char op2)
+bool relevance(char op1, char op2)
 {
 	if(op1 == '(') {
 		return false;
@@ -65,61 +33,53 @@ bool Expression::relevance(char op1, char op2)
 	return false;
 }
 
-string Expression::to_posfix()
-{
-	stack<char> stk;
-	string new_expr = "";
-	
-	for(int i = 0; i < (int) expr.size(); i++) {
-		if(isalnum(expr[i])) {
-			new_expr += expr[i];
-		}
-		else if(isoperator(expr[i])) {
-			while(!stk.empty() && relevance(stk.top(), expr[i])) {
-				new_expr += stk.top(); stk.pop();
-			} 
-			stk.push(expr[i]);
-		}
-		else {
-			if(expr[i] == '(') {
-				stk.push(expr[i]);
-			}
-			else if(expr[i] == ')') {
-				while(!stk.empty()) {
-					if(stk.top() != '(')
-						new_expr += stk.top(); 
-					else {
-						stk.pop(); break;
-					}
-					stk.pop();						
-				}
-			}
-		}
-	}		
-	
-	while(!stk.empty()) {
-		if(stk.top() != '(')
-			new_expr += stk.top(); 
-		stk.pop();
-	}
-	
-	return new_expr;
-}
-
 int main()
 {
-	int N;
+	int T;
 	
-	cin >> N;
+	cin >> T;
 	
-	while(N--)
+	while(T--) 
 	{
-		string expr;
+		string exp;
 		
-		cin >> expr;
+		cin >> exp;
 		
-		Expression infix(expr);
+		stack<char> stk;
 		
-		cout << infix.to_posfix() << endl;
+		for(int i = 0; i < (int) exp.size(); i++) {
+			if(isalnum(exp[i])) {
+				cout << exp[i];
+			}
+			else if(isoperator(exp[i])) {
+				while(!stk.empty() && relevance(stk.top(), exp[i])) {
+					cout << stk.top(); stk.pop();
+				} 
+				stk.push(exp[i]);
+			}
+			else {
+				if(exp[i] == '(') {
+					stk.push(exp[i]);
+				}
+				else if(exp[i] == ')') {
+					while(!stk.empty()) {
+						if(stk.top() != '(')
+							cout << stk.top(); 
+						else {
+							stk.pop(); break;
+						}
+						stk.pop();						
+					}
+				}
+			}
+		}		
+		
+		while(!stk.empty()) {
+			if(stk.top() != '(')
+				cout << stk.top(); 
+			stk.pop();
+		}		
+		
+		cout << endl;
 	}
 }

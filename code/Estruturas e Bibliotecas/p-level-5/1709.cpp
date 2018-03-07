@@ -2,7 +2,7 @@
 Nome:      Baralho Embaralhado
 ID:        1709
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   435 Bytes
 Submissao: 14/09/15 20:26:02

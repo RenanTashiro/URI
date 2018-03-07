@@ -2,7 +2,7 @@
 Nome:      Vivo ou Morto
 ID:        2301
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.180s
 Tamanho:   970 Bytes
 Submissao: 27/10/16 11:05:03

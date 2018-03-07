@@ -2,7 +2,7 @@
 Nome:      Abelha Maja
 ID:        1732
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,51 KB
 Submissao: 06/07/15 19:07:53

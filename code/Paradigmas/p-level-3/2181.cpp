@@ -2,7 +2,7 @@
 Nome:      URI - Uireb Rhom uin Iavas
 ID:        2181
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.172s
 Tamanho:   1,19 KB
 Submissao: 13/08/17 16:34:12

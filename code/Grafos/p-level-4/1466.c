@@ -2,7 +2,7 @@
 Nome:      Percurso em Árvore por Nível
 ID:        1466
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.092s
 Tamanho:   1,7 KB
 Submissao: 07/08/15 09:04:43

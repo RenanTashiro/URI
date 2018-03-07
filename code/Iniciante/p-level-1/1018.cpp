@@ -2,7 +2,7 @@
 Nome:      Cédulas
 ID:        1018
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   610 Bytes
 Submissao: 09/05/16 14:22:01

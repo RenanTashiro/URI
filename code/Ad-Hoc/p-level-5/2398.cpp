@@ -2,7 +2,7 @@
 Nome:      Caça ao Tesouro
 ID:        2398
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   922 Bytes
 Submissao: 15/06/17 17:11:54

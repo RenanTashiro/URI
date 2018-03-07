@@ -2,7 +2,7 @@
 Nome:      Pedido de Desculpas
 ID:        2299
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.116s
 Tamanho:   776 Bytes
 Submissao: 28/07/17 18:01:28

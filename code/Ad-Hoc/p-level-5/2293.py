@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Campo de Minhocas
 ID:        2293
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.056s
 Tamanho:   301 Bytes
 Submissao: 11/10/16 08:49:54
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def main():

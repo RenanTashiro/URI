@@ -2,7 +2,7 @@
 Nome:      Loteria de Fim de Semana
 ID:        1407
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   1,03 KB
 Submissao: 12/07/15 10:26:39

@@ -2,7 +2,7 @@
 Nome:      Aposta com Noel
 ID:        2027
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   558 Bytes
 Submissao: 26/02/16 10:47:19

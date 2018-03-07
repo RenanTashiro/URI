@@ -2,7 +2,7 @@
 Nome:      Corretor Automático de Erros de Soletração
 ID:        1657
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.648s
 Tamanho:   3,39 KB
 Submissao: 22/10/15 17:25:17

@@ -2,7 +2,7 @@
 Nome:      Formação de Robôs
 ID:        1780
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   1,08 KB
 Submissao: 23/05/15 13:25:34

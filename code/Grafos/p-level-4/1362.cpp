@@ -2,7 +2,7 @@
 Nome:      Minha Camiseta Me Serve
 ID:        1362
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   1,28 KB
 Submissao: 27/05/17 08:32:01

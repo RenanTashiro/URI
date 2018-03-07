@@ -2,7 +2,7 @@
 Nome:      Painel de Posições
 ID:        1375
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   782 Bytes
 Submissao: 27/05/15 14:49:11

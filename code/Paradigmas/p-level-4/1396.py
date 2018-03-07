@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Hoje tem Prova da Cris!
 ID:        1396
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.112s
 Tamanho:   777 Bytes
 Submissao: 14/03/16 09:33:43
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def swap(students, number, start):

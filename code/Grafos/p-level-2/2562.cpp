@@ -2,10 +2,10 @@
 Nome:      Tipos Analógimôn
 ID:        2562
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.812s
-Tamanho:   968 Bytes
-Submissao: 14/05/17 15:38:09
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.288s
+Tamanho:   998 Bytes
+Submissao: 14/05/17 15:39:24
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -42,7 +42,7 @@ int main()
 {
     int N, M;
 
-    while(cin >> N >> M)
+    while(scanf("%d%d", &N, &M) != EOF)
     {
         vector<vector<int>> graph(N);
 
@@ -50,7 +50,7 @@ int main()
         {
             int a, b;
 
-            cin >> a >> b;
+            scanf("%d%d", &a, &b);
 
             graph[a-1].push_back(b-1);
             graph[b-1].push_back(a-1);
@@ -58,7 +58,7 @@ int main()
 
         int e;
 
-        cin >> e;
+        scanf("%d", &e);
 
         cout << solve(graph, e - 1) << endl;
     }

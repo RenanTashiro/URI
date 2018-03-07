@@ -2,7 +2,7 @@
 Nome:      Museu Virtual 3D
 ID:        2548
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   433 Bytes
 Submissao: 09/05/17 17:38:47

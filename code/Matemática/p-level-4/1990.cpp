@@ -2,7 +2,7 @@
 Nome:      Equilíbrio
 ID:        1990
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   917 Bytes
 Submissao: 29/11/15 20:10:05

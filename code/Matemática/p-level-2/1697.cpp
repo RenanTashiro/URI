@@ -2,7 +2,7 @@
 Nome:      Jaida e o Jogo Multiplicativo
 ID:        1697
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.376s
 Tamanho:   1,04 KB
 Submissao: 18/11/15 12:47:52

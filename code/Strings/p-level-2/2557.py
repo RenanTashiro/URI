@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      R+L=J
 ID:        2557
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.020s
 Tamanho:   314 Bytes
 Submissao: 14/05/17 15:54:40
-"""
+*/
 # -*- coding: utf-8 -*-
 
 while 1:

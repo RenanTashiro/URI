@@ -1,13 +1,21 @@
-"""
+/*
 Nome:      Sapo Dinâmico
 ID:        1054
 Resposta:  Accepted
-Linguagem: Python 3
-Tempo:     0.032s
-Tamanho:   813 Bytes
-Submissao: 21/07/16 17:46:08
-"""
+Linguagem: Python 3 (Python 3.4.3) [+1s]
+Tempo:     0.040s
+Tamanho:   861 Bytes
+Submissao: 05/05/16 12:39:53
+*/
 # -*- coding: utf-8 -*-
+
+'''
+(1) Se tiver uma pedra grande, simplismente
+    use ela.
+(2) Pular duas pedras seguidas pequenas não
+    vale a pena
+'''	
+T = int(input())
 
 def jump(pedras):
 	minimo, size = 0, len(pedras)
@@ -21,17 +29,11 @@ def jump(pedras):
 		elif i+3 < size:
 			minimo = max(minimo, pedras[i+3][1] -  pedras[i+1][1]) 
 	return minimo
-
-def main():
-    T = int(input())
 	
-    for t in range(T):
-	    N, D = (int(n) for n in input().split())
-	    if D == 0:
-    		print(D)
-	    else:
-		    pedras = [['B', 0]] + [[p[0], int(p[2:])] for p in input().split()] + [['B', D]]		
-		    print('Case %d: %d' % (t+1, jump(pedras)))
-
-if __name__ == '__main__':
-    main()
+for t in range(T):
+	N, D = (int(n) for n in input().split())
+	if D == 0:
+		print(D)
+	else:
+		pedras = [['B', 0]] + [[p[0], int(p[2:])] for p in input().split()] + [['B', D]]		
+		print('Case %d: %d' % (t+1, jump(pedras)))

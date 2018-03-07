@@ -2,7 +2,7 @@
 Nome:      Camisetas
 ID:        1258
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.020s
 Tamanho:   1,36 KB
 Submissao: 01/07/15 07:51:35

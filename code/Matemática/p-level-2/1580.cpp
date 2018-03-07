@@ -2,7 +2,7 @@
 Nome:      Quid Est Veritas? Est Vir Qui Adest!
 ID:        1580
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,09 KB
 Submissao: 13/12/15 10:27:53

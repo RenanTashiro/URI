@@ -2,7 +2,7 @@
 Nome:      BRINDE FACE 2015
 ID:        1944
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   914 Bytes
 Submissao: 21/10/15 12:11:54

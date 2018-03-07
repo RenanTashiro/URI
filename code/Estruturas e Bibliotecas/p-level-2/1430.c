@@ -2,7 +2,7 @@
 Nome:      Composição de Jingles
 ID:        1430
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   1,15 KB
 Submissao: 12/06/15 14:13:58

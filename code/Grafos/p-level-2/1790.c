@@ -2,7 +2,7 @@
 Nome:      Detectando Pontes
 ID:        1790
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   2,13 KB
 Submissao: 08/07/15 18:07:52

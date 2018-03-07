@@ -2,7 +2,7 @@
 Nome:      O Filme
 ID:        1963
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   217 Bytes
 Submissao: 27/10/15 08:49:56

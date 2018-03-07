@@ -2,7 +2,7 @@
 Nome:      Ir e Vir
 ID:        1128
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.068s
 Tamanho:   770 Bytes
 Submissao: 06/01/16 17:38:27

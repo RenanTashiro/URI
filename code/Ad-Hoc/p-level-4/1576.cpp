@@ -2,7 +2,7 @@
 Nome:      O Problema da Linha do Horizonte
 ID:        1576
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.080s
 Tamanho:   1,15 KB
 Submissao: 16/01/16 20:28:55

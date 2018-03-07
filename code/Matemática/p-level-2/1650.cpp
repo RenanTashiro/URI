@@ -2,7 +2,7 @@
 Nome:      Pintura Preto e Branco
 ID:        1650
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   554 Bytes
 Submissao: 24/10/15 16:55:04

@@ -2,7 +2,7 @@
 Nome:      Futebol
 ID:        1495
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.328s
 Tamanho:   1,13 KB
 Submissao: 23/06/15 08:59:46

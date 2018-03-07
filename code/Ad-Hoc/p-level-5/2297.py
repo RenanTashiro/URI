@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Bafo
 ID:        2297
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.536s
 Tamanho:   288 Bytes
 Submissao: 11/10/16 09:17:35
-"""
+*/
 # -*- coding: utf-8 -*-
 
 test = 1

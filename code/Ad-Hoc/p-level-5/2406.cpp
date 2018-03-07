@@ -2,7 +2,7 @@
 Nome:      Expressões
 ID:        2406
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   781 Bytes
 Submissao: 15/06/17 17:16:24

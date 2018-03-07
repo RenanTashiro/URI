@@ -2,7 +2,7 @@
 Nome:      Guilherme e Suas Pipas
 ID:        1921
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   300 Bytes
 Submissao: 20/09/15 09:12:12

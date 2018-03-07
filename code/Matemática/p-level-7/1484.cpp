@@ -2,7 +2,7 @@
 Nome:      Tecle & Some
 ID:        1484
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.164s
 Tamanho:   1,81 KB
 Submissao: 25/06/17 16:10:42

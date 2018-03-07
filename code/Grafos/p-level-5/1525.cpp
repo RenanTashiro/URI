@@ -2,7 +2,7 @@
 Nome:      Gruntz
 ID:        1525
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.052s
 Tamanho:   1,81 KB
 Submissao: 14/01/16 13:20:32

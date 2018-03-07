@@ -2,7 +2,7 @@
 Nome:      Efílogo
 ID:        1845
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.412s
 Tamanho:   720 Bytes
 Submissao: 24/09/15 20:50:59

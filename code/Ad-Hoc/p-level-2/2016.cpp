@@ -2,7 +2,7 @@
 Nome:      D como em Daedalus
 ID:        2016
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   553 Bytes
 Submissao: 26/12/15 11:52:44

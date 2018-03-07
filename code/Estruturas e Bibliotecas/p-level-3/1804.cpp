@@ -2,7 +2,7 @@
 Nome:      Precisa-se de Matemáticos em Marte
 ID:        1804
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.484s
 Tamanho:   1,33 KB
 Submissao: 08/06/17 17:50:57

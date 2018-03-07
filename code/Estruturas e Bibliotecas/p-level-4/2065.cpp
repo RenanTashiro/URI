@@ -2,7 +2,7 @@
 Nome:      Fila do Supermercado
 ID:        2065
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.012s
 Tamanho:   728 Bytes
 Submissao: 23/05/16 22:48:05

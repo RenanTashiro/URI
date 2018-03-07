@@ -2,7 +2,7 @@
 Nome:      Jornada nas Estrelas
 ID:        1973
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.236s
 Tamanho:   847 Bytes
 Submissao: 08/11/15 08:15:10

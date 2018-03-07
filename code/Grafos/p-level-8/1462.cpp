@@ -2,7 +2,7 @@
 Nome:      Popularidade no Facebook
 ID:        1462
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.292s
 Tamanho:   1,97 KB
 Submissao: 08/07/17 14:45:06

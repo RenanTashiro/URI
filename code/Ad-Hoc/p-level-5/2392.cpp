@@ -2,7 +2,7 @@
 Nome:      Pulo do Sapo
 ID:        2392
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   420 Bytes
 Submissao: 11/06/17 09:36:53

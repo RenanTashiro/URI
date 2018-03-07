@@ -2,7 +2,7 @@
 Nome:      Chegando Junto
 ID:        1057
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.048s
 Tamanho:   2,2 KB
 Submissao: 19/12/16 13:44:51

@@ -2,7 +2,7 @@
 Nome:      Robô Aspirador
 ID:        2558
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.824s
 Tamanho:   3,27 KB
 Submissao: 14/05/17 20:41:55

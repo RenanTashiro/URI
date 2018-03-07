@@ -2,7 +2,7 @@
 Nome:      Ajude a Federação
 ID:        1588
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.008s
 Tamanho:   2,97 KB
 Submissao: 23/06/15 09:07:49

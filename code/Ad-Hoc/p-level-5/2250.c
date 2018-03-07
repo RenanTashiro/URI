@@ -2,7 +2,7 @@
 Nome:      Tetris
 ID:        2250
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.020s
 Tamanho:   1,36 KB
 Submissao: 11/10/16 10:33:27

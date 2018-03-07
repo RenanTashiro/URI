@@ -2,7 +2,7 @@
 Nome:      Sociedade Brasileira Casamenteira
 ID:        1902
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.332s
 Tamanho:   1 KB
 Submissao: 15/07/17 19:45:02

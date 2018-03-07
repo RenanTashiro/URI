@@ -2,7 +2,7 @@
 Nome:      Cartas
 ID:        2456
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   457 Bytes
 Submissao: 28/04/17 16:34:08

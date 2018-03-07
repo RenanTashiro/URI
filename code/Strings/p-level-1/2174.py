@@ -1,20 +1,20 @@
-"""
+/*
 Nome:      Coleção de Pomekon
 ID:        2174
 Resposta:  Accepted
-Linguagem: Python 3
-Tempo:     0.052s
-Tamanho:   195 Bytes
-Submissao: 22/08/16 21:51:40
-"""
+Linguagem: Python 3 (Python 3.4.3) [+1s]
+Tempo:     0.044s
+Tamanho:   184 Bytes
+Submissao: 22/08/16 21:45:36
+*/
 # -*- coding: utf-8 -*-
 
-def main():
-	pokedeck = set()
+N = int(input())
 
-	for i in range(int(input())):
-		pokedeck.add(input())
-		
-	print('Falta(m) {} pomekon(s).'.format(151 - len(pokedeck)))
+pokedeck = set()
 
-main()
+for i in range(N):
+    pokedeck.add(input())
+    
+print('Falta(m) {} pomekon(s).'.format(151 - len(pokedeck)))
+

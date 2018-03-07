@@ -2,65 +2,82 @@
 Nome:      Fatores e Múltiplos
 ID:        1056
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.176s
-Tamanho:   1,54 KB
-Submissao: 19/12/16 13:49:37
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.140s
+Tamanho:   2,65 KB
+Submissao: 15/05/16 09:02:52
 */
-// Autor: Renan Tashiro
 #include <iostream>
 #include <string.h>
 #include <vector>
 using namespace std;
  
+// M is number of applicants and N is number of jobs
 typedef vector<vector<bool>> vvb; // vbb[M][N]
  
+// A DFS based recursive function that returns true if a
+// matching for vertex u is possible
 bool bpm(vvb bpGraph, int u, bool seen[], int matchR[])
 {
-    for(int v = 0; v < (int)bpGraph[u].size(); v++)
+    // Try every job one by one
+    for (int v = 0; v < (int)bpGraph[u].size(); v++)
     {
-        if(bpGraph[u][v] && !seen[v])
+        // If applicant u is interested in job v and v is
+        // not visited
+        if (bpGraph[u][v] && !seen[v])
         {
-            seen[v] = true;
+            seen[v] = true; // Mark v as visited
  
-            if(matchR[v] < 0 || bpm(bpGraph, matchR[v], seen, matchR))
+            // If job 'v' is not assigned to an applicant OR
+            // previously assigned applicant for job v (which is matchR[v]) 
+            // has an alternate job available. 
+            // Since v is marked as visited in the above line, matchR[v] 
+            // in the following recursive call will not get job 'v' again
+            if (matchR[v] < 0 || bpm(bpGraph, matchR[v], seen, matchR))
             {
                 matchR[v] = u;
                 return true;
             }
         }
     }
-    
     return false;
 }
  
+// Returns maximum number of matching from M to N
 int maxBPM(vvb bpGraph)
 {
+    // An array to keep track of the applicants assigned to
+    // jobs. The value of matchR[i] is the applicant number
+    // assigned to job i, the value -1 indicates nobody is
+    // assigned.
     int matchR[bpGraph[0].size()];
  
+    // Initially all jobs are available
     memset(matchR, -1, sizeof(matchR));
  
-    int result = 0;
-    for(int u = 0; u < (int)bpGraph.size(); u++)
+    int result = 0; // Count of jobs assigned to applicants
+    for (int u = 0; u < (int)bpGraph.size(); u++)
     {
+        // Mark all jobs as not seen for next applicant.
         bool seen[bpGraph[u].size()];
         memset(seen, 0, sizeof(seen));
  
-        if(bpm(bpGraph, u, seen, matchR))
+        // Find if the applicant 'u' can get a job
+        if (bpm(bpGraph, u, seen, matchR))
             result++;
     }
-    
     return result;
 }
-
+ 
+// Driver program to test above functions
 int main()
 {	
 	int T;
 	
 	cin >> T;
 	
-	for(int t = 1; t <= T; t++)
-	{		
+	for(int t = 1; t <= T; t++) {		
+		// Let us create a bpGraph shown in the above example		
 		vector<int> A, B;
 		int m, n, v;
 		

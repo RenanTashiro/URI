@@ -2,7 +2,7 @@
 Nome:      Californication
 ID:        2570
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.500s
 Tamanho:   1,22 KB
 Submissao: 12/06/17 19:45:14

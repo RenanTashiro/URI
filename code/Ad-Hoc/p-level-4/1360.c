@@ -2,7 +2,7 @@
 Nome:      Truque de Mágica
 ID:        1360
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   2,71 KB
 Submissao: 12/07/15 14:34:12

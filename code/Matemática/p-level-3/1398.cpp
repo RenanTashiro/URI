@@ -2,7 +2,7 @@
 Nome:      Oceano Profundo! Faça-o Raso!!
 ID:        1398
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.940s
 Tamanho:   858 Bytes
 Submissao: 13/12/15 11:56:17

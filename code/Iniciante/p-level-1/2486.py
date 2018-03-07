@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      C Mais ou Menos?
 ID:        2486
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.016s
 Tamanho:   503 Bytes
 Submissao: 19/04/17 16:34:53
-"""
+*/
 table = {
 		'suco de laranja': 120,
 		'morango fresco' : 85,

@@ -2,7 +2,7 @@
 Nome:      Arrumando as Tarefas
 ID:        1704
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.304s
 Tamanho:   1,18 KB
 Submissao: 06/07/15 19:17:14

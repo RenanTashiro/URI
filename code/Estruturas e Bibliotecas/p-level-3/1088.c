@@ -2,7 +2,7 @@
 Nome:      Bolhas e Baldes
 ID:        1088
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.468s
 Tamanho:   1,85 KB
 Submissao: 24/11/15 18:43:44

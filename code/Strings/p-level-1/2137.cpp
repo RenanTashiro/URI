@@ -2,7 +2,7 @@
 Nome:      A Biblioteca do Senhor Severino
 ID:        2137
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   311 Bytes
 Submissao: 14/07/16 20:54:24

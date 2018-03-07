@@ -2,7 +2,7 @@
 Nome:      Circuito Bioquímico Digital
 ID:        1486
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.204s
 Tamanho:   789 Bytes
 Submissao: 12/06/15 09:37:59

@@ -2,7 +2,7 @@
 Nome:      Empurrando Blocos
 ID:        1874
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   947 Bytes
 Submissao: 18/08/15 12:47:52

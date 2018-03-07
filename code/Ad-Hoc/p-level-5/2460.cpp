@@ -2,7 +2,7 @@
 Nome:      Fila
 ID:        2460
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.044s
 Tamanho:   653 Bytes
 Submissao: 28/04/17 17:04:14

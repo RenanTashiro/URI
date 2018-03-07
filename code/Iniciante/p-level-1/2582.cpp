@@ -2,7 +2,7 @@
 Nome:      System of a Download
 ID:        2582
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   450 Bytes
 Submissao: 14/06/17 19:13:25

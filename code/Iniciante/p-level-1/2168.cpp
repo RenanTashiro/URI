@@ -2,7 +2,7 @@
 Nome:      Crepúsculo em Portland
 ID:        2168
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   414 Bytes
 Submissao: 25/07/16 22:26:02

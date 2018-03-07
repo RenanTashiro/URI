@@ -2,7 +2,7 @@
 Nome:      Parceiros de Telecomunicação
 ID:        1344
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.068s
 Tamanho:   1,4 KB
 Submissao: 14/01/16 18:01:01

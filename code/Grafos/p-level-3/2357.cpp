@@ -2,10 +2,10 @@
 Nome:      Violência em Sildávia
 ID:        2357
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.144s
-Tamanho:   1.021 Bytes
-Submissao: 01/07/17 19:55:48
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.156s
+Tamanho:   1.014 Bytes
+Submissao: 01/07/17 19:55:05
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -48,7 +48,7 @@ int main()
         int visited[10005] = {};
         bool ans = true;
 
-        for(int i = 0; i < N && ans; i++)
+        for(int i = 0; i < N; i++)
         {
             if(!visited[i])
             {

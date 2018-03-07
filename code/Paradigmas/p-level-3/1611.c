@@ -2,7 +2,7 @@
 Nome:      Elevador Lotado
 ID:        1611
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.100s
 Tamanho:   661 Bytes
 Submissao: 26/06/15 11:35:36

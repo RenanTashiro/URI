@@ -2,7 +2,7 @@
 Nome:      Países em Guerra
 ID:        1148
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.232s
 Tamanho:   2,08 KB
 Submissao: 25/10/15 21:58:03

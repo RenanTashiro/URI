@@ -2,7 +2,7 @@
 Nome:      Nossos Dias Nunca Voltarão
 ID:        1864
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   286 Bytes
 Submissao: 07/08/15 09:08:13

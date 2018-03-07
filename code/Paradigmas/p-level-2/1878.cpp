@@ -2,7 +2,7 @@
 Nome:      Torneios em Sequência
 ID:        1878
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   1,1 KB
 Submissao: 24/09/15 18:23:48

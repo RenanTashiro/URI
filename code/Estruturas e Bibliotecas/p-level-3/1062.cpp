@@ -2,10 +2,10 @@
 Nome:      Trilhos
 ID:        1062
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.036s
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.064s
 Tamanho:   1,48 KB
-Submissao: 01/08/16 13:40:53
+Submissao: 13/07/15 19:37:37
 */
 #include <cstdio> // scanf e printf
  

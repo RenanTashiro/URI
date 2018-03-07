@@ -2,7 +2,7 @@
 Nome:      Fui ao Mercado e Comprei...
 ID:        2090
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.016s
 Tamanho:   463 Bytes
 Submissao: 18/06/16 18:00:33

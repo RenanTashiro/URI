@@ -2,10 +2,10 @@
 Nome:      Árvore de Natal
 ID:        2026
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,04 KB
-Submissao: 26/02/16 10:46:48
+Submissao: 24/02/16 20:47:50
 */
 #include <bits/stdc++.h>
 

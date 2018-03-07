@@ -2,7 +2,7 @@
 Nome:      Soma de Dois Quadrados
 ID:        1558
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.096s
 Tamanho:   1,47 KB
 Submissao: 28/06/15 13:06:35

@@ -2,7 +2,7 @@
 Nome:      Fechadura
 ID:        2449
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   626 Bytes
 Submissao: 15/06/17 14:19:08

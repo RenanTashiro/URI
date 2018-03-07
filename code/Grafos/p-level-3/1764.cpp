@@ -2,7 +2,7 @@
 Nome:      Itinerário do Papai Noel
 ID:        1764
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.044s
 Tamanho:   1 KB
 Submissao: 21/12/15 15:41:20

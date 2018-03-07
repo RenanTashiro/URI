@@ -2,7 +2,7 @@
 Nome:      Radares
 ID:        1689
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.468s
 Tamanho:   834 Bytes
 Submissao: 16/08/17 20:32:49

@@ -2,7 +2,7 @@
 Nome:      Polícia e Ladrão
 ID:        1905
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,14 KB
 Submissao: 24/08/15 19:31:22

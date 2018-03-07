@@ -2,7 +2,7 @@
 Nome:      Cabo de Guerra
 ID:        1586
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.076s
 Tamanho:   1,4 KB
 Submissao: 28/06/17 18:19:40

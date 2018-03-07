@@ -2,7 +2,7 @@
 Nome:      Filogenia
 ID:        1894
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.200s
 Tamanho:   1,88 KB
 Submissao: 02/07/17 21:20:39

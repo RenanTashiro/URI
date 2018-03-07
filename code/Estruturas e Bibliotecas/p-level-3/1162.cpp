@@ -2,7 +2,7 @@
 Nome:      Organizador de Vagões
 ID:        1162
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.144s
 Tamanho:   721 Bytes
 Submissao: 02/06/15 10:29:26

@@ -2,7 +2,7 @@
 Nome:      Zero vale Zero
 ID:        1871
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   417 Bytes
 Submissao: 11/08/15 10:08:48

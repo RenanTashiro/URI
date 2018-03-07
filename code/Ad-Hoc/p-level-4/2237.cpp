@@ -2,7 +2,7 @@
 Nome:      Containers
 ID:        2237
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.232s
 Tamanho:   2,59 KB
 Submissao: 18/09/16 21:12:49

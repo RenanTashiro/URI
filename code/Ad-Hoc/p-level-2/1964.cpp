@@ -2,7 +2,7 @@
 Nome:      A Ira de Khan
 ID:        1964
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   616 Bytes
 Submissao: 05/05/16 11:28:04

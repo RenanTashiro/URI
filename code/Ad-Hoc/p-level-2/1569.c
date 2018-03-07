@@ -2,7 +2,7 @@
 Nome:      Sobe e Desce
 ID:        1569
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.576s
 Tamanho:   1,25 KB
 Submissao: 24/06/15 15:00:51

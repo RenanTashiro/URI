@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Nomes de Usuários
 ID:        2549
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     1.468s
 Tamanho:   286 Bytes
 Submissao: 17/05/17 12:08:05
-"""
+*/
 while True:
 	try:
 		N, A = (int(i) for i in input().split())		

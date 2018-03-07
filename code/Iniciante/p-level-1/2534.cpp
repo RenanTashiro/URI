@@ -2,7 +2,7 @@
 Nome:      Exame Geral
 ID:        2534
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   428 Bytes
 Submissao: 09/05/17 16:55:31

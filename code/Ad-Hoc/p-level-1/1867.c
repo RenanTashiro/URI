@@ -2,7 +2,7 @@
 Nome:      Maior Número de Um Algarismo
 ID:        1867
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   768 Bytes
 Submissao: 17/08/15 12:28:01

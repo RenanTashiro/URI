@@ -2,7 +2,7 @@
 Nome:      Awari 2.0
 ID:        1998
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.040s
 Tamanho:   852 Bytes
 Submissao: 28/11/15 16:20:47

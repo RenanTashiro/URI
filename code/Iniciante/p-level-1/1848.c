@@ -2,7 +2,7 @@
 Nome:      Corvo Contador
 ID:        1848
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   651 Bytes
 Submissao: 09/08/15 16:59:44

@@ -2,7 +2,7 @@
 Nome:      Resgate em Queda Livre
 ID:        1552
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     2.476s
 Tamanho:   1,28 KB
 Submissao: 06/01/16 20:10:11

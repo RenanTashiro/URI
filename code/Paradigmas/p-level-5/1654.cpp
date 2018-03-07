@@ -2,7 +2,7 @@
 Nome:      Mercearia
 ID:        1654
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     1.072s
 Tamanho:   561 Bytes
 Submissao: 18/08/17 19:07:59

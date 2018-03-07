@@ -2,10 +2,10 @@
 Nome:      Onda Crítica
 ID:        1027
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.064s
-Tamanho:   1,24 KB
-Submissao: 21/04/16 11:27:08
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.060s
+Tamanho:   1,46 KB
+Submissao: 22/04/16 17:36:57
 */
 #include <bits/stdc++.h>
 
@@ -78,11 +78,18 @@ int main()
 		{
 			if(points.find(i+2) != points.end()) 
 			{
-				ans = max(ans, max(
+				int s1 = points[i][0], s2 = points[i+2][0];
+				
+				if(s1 < s2) 
+					ans = max(ans, maxzi(points[i], points[i+2])); 
+				else if(s1 > s2)
+					ans = max(ans, maxzi(points[i], points[i+2], false)); 
+				else
+					ans = max(ans, max(
 						maxzi(points[i], points[i+2]), 
 						maxzi(points[i], points[i+2], false))
-					);
-			}
+					);					
+			}	
 		}
 		
 		printf("%d\n", ans);

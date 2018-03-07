@@ -2,7 +2,7 @@
 Nome:      Matring
 ID:        1803
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   757 Bytes
 Submissao: 28/05/15 18:01:39

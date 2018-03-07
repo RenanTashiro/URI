@@ -2,7 +2,7 @@
 Nome:      Lucro
 ID:        1310
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   812 Bytes
 Submissao: 03/06/15 15:53:23

@@ -2,7 +2,7 @@
 Nome:      Substituição de Tag
 ID:        1254
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.044s
 Tamanho:   1,59 KB
 Submissao: 11/06/15 15:51:47

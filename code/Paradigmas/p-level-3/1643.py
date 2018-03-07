@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Converter Quilômetros para Milhas
 ID:        1643
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.628s
 Tamanho:   701 Bytes
 Submissao: 15/03/16 09:00:07
-"""
+*/
 # -*- coding: utf-8 -*-
 
 def fibonacci():

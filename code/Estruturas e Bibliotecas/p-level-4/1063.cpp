@@ -2,47 +2,58 @@
 Nome:      Trilhos Novamente... Traçando Movimentos
 ID:        1063
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.024s
-Tamanho:   580 Bytes
-Submissao: 02/08/16 14:08:50
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+Tempo:     0.064s
+Tamanho:   738 Bytes
+Submissao: 10/01/16 17:09:58
 */
-#include <cstdio>
-#include <stack>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main()
-{
+{	
 	int N;
 	
 	while(scanf("%d", &N) && N != 0)
-	{		
-		std::stack<char> stk;
-		char in[N], out[N];
+	{
+		vector<char> A(N), B(N);
 		
-		for(int i = 0; i < N; i++)
-			scanf(" %c", &in[i]);
-			
-		for(int i = 0; i < N; i++)
-			scanf(" %c", &out[i]);
+		for(int i = 0; i < N; i++) {
+			scanf(" %c", &A[i]);
+		}
 		
-		int i, j;
-			
-		for(i = 0, j = 0; i < N && j < N; )
-		{
-			stk.push(in[j++]);
-			putchar('I');
-			
-			while(!stk.empty() && stk.top() == out[i]) {
-				putchar('R');
-				stk.pop();
-				i++;
+		for(int i = 0; i < N; i++) {
+			scanf(" %c", &B[i]);
+		}	
+		
+		stack<char> Stk;
+		int idx_A = 0, idx_B = 0;
+		
+		Stk.push(A[idx_A++]);
+		printf("%c", 'I'); 
+		
+		while(1) {
+			if(!Stk.empty() && Stk.top() == B[idx_B]) {
+				Stk.pop(); idx_B++;
+				printf("%c", 'R'); 
+			} 
+			else {
+				if(idx_A < N) {
+					Stk.push(A[idx_A++]);
+					printf("%c", 'I'); 
+				}
+				else {
+					break;				
+				}
 			}
 		}
 		
-		if(i != N) {
-			puts(" Impossible");
-		} else {
-			puts("");
-		}			
+		if(!Stk.empty()) {
+			printf(" %s", "Impossible");
+		}
+		
+		puts("");
 	}
 }
+

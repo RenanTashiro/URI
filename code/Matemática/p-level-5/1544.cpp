@@ -2,7 +2,7 @@
 Nome:      O Último Dígito Não-Zero
 ID:        1544
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     2.548s
 Tamanho:   312 Bytes
 Submissao: 10/06/17 13:26:25

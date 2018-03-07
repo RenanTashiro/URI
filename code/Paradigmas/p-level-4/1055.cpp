@@ -2,7 +2,7 @@
 Nome:      Soma Permutada Elegante
 ID:        1055
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   1,13 KB
 Submissao: 10/01/16 16:13:38

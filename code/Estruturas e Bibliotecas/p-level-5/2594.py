@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Eachianos II
 ID:        2594
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.024s
 Tamanho:   286 Bytes
 Submissao: 17/07/17 17:59:58
-"""
+*/
 import re
 
 def main():

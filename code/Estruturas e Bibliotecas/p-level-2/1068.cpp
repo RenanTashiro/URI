@@ -1,70 +1,62 @@
 /*
-Nome:      Balanço de Parênteses I
-ID:        1068
+Nome:      Onde está o Mármore?
+ID:        1025
 Resposta:  Accepted
-Linguagem: C++
-Tempo:     0.076s
-Tamanho:   913 Bytes
-Submissao: 01/08/16 13:55:48
+Linguagem: Java 7 (OpenJDK 1.7.0) [+2s]
+Tempo:     1.512s
+Tamanho:   1,25 KB
+Submissao: 13/06/16 13:42:01
 */
-#include <iostream>
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.Arrays;
 
-#define PARENTHESIS_B 1
-
-using namespace std;
-
-class SintaxAnalyser
-{
-	public:
-		SintaxAnalyser(string expr);
-		bool valid(int type);
-	private:
-		bool check_PB();
-		string expr;
-};
-
-SintaxAnalyser::SintaxAnalyser(string expr)
-{
-	this->expr = expr;
-}
-
-bool SintaxAnalyser::check_PB()
-{
-	int memory = 0;
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {	
 	
-	for(int i = 0; i < (int)expr.size(); i++)
-	{
-		if(expr[i] == '(')		
-			memory++;
-		else if(expr[i] == ')')
-		{
-			if(memory == 0)
-				return false;
-			memory--;
+	public static int solve(int numbers[], int key) {
+		int pos = Arrays.binarySearch(numbers, key);
+		if(pos < 0) {
+			return -1;
+		} else {
+			while(pos > 0 && numbers[pos-1] == key) {
+				pos--;
+			}
 		}
-		
+		return pos+1;
 	}
 	
-	return memory == 0;
-}
-
-bool SintaxAnalyser::valid(int type)
-{
-	switch(type)
-	{
-	case PARENTHESIS_B: return check_PB();
-	default: cerr << "err(1): Invalid Type."; return false;
-	}
-}
-
-int main()
-{
-	string expr;
-	
-	while(cin >> expr)
-	{
-		SintaxAnalyser analyser(expr);
-		
-		cout << (analyser.valid(PARENTHESIS_B) ? "correct" : "incorrect") << "\n";
-	}
+    public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		int N, Q, caso = 1;
+		while(true) {
+			N = sc.nextInt();
+			Q = sc.nextInt();
+			if(N == 0 && Q == 0) {
+				break;
+			}
+			int numbers[] = new int[N];
+			for(int i = 0; i < N; i++) {
+				numbers[i] = sc.nextInt();
+			}	
+			Arrays.sort(numbers);
+			System.out.println("CASE# " + caso++ + ":");
+			int key;		
+			for(int i = 0; i < Q; i++) {
+				key = sc.nextInt();
+				int ans = solve(numbers, key);
+				if(ans == -1) {
+					System.out.printf("%d not found\n", key);
+				} else {
+					System.out.printf("%d found at %d\n", key, ans);
+				}
+			}
+		}
+    }
+ 
 }

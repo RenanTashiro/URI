@@ -2,7 +2,7 @@
 Nome:      Desafio de São Petersburgo
 ID:        1206
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.004s
 Tamanho:   4,87 KB
 Submissao: 11/10/15 15:43:28

@@ -2,7 +2,7 @@
 Nome:      Babel
 ID:        1085
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.544s
 Tamanho:   1,87 KB
 Submissao: 21/01/16 09:04:04

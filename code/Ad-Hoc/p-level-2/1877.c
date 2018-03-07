@@ -2,7 +2,7 @@
 Nome:      O Castelo de Neve de Sansa
 ID:        1877
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   455 Bytes
 Submissao: 12/08/15 09:21:13

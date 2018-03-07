@@ -2,7 +2,7 @@
 Nome:      Flores de Fogo
 ID:        1039
 Resposta:  Accepted
-Linguagem: C
+Linguagem: C (gcc 4.8.5, -O2 -lm) [+0s]
 Tempo:     0.000s
 Tamanho:   378 Bytes
 Submissao: 30/07/15 15:06:02

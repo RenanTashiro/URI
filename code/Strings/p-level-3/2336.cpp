@@ -2,7 +2,7 @@
 Nome:      ABC
 ID:        2336
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.084s
 Tamanho:   986 Bytes
 Submissao: 23/04/17 11:25:13

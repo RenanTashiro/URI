@@ -2,7 +2,7 @@
 Nome:      Matriz Escada
 ID:        2450
 Resposta:  Accepted
-Linguagem: C++
+Linguagem: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
 Tempo:     0.032s
 Tamanho:   750 Bytes
 Submissao: 10/06/17 18:07:41

@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Voleibol
 ID:        2310
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.040s
 Tamanho:   458 Bytes
 Submissao: 10/10/16 21:23:01
-"""
+*/
 # -*- coding: utf-8 -*-
 
 N = int(input())

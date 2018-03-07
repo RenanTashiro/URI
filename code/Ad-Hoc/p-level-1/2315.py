@@ -1,12 +1,12 @@
-"""
+/*
 Nome:      Diferença Fácil Entre Datas
 ID:        2315
 Resposta:  Accepted
-Linguagem: Python 3
+Linguagem: Python 3 (Python 3.4.3) [+1s]
 Tempo:     0.024s
 Tamanho:   281 Bytes
 Submissao: 10/10/16 21:33:07
-"""
+*/
 # -*- coding: utf-8 -*-
 
 #~ m = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]

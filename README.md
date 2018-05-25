@@ -1,7 +1,7 @@
 # URI
 Solutions of programming contest problems solved by me (or with my competition team, but mostly by my own).
 
-## Profile
+## Profile [![](https://img.shields.io/badge/problems--solved-1187-green.svg)]()
 https://www.urionlinejudge.com.br/judge/pt/profile/36720
 
 ## Code organization
